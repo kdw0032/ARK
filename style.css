@@ -1,0 +1,398 @@
+/** Ultra Light */
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+  }
+  
+  /** Thin */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+  }
+  
+  /** Regular */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+  
+  /** Medium */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+  }
+  
+  /** Semi Bold */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+  }
+  
+  /** Bold */ 
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 12000px;
+    overflow-x: hidden;
+}
+
+.Header img {
+    position: relative;
+    left: 120px;
+    width: 83.244px;
+    height: 60px;
+    display: flex;
+    padding: 56px 12px 16px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 59.244px;
+    height: 32px;
+    color: #fff;
+}
+
+.Header li {
+    list-style: none;
+}
+
+.Header h1 {
+    position: absolute;
+    top: 0px;
+    left: 911px;
+    font-size: 20px;
+}
+
+.Header li a {
+    position: relative;
+    top: -50px;
+    left: 880px;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.Header p {
+    position: absolute;
+    top: 102px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.hero  {
+    position: absolute;
+    top: 340px;
+    left: 350px;
+    width: 1271px;
+    height: 570px;
+    background-color: rgba(211, 211, 211, 0.048);
+}
+
+.hero_title h1 {
+    position: absolute;
+    top: -180px;
+    left: 500px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero_title h2 {
+    position: absolute;
+    top: -250px;
+    left: -10px;
+    color: #000;
+    font-size: 104px;
+    font-style: normal;
+    line-height: 116px; /* 111.538% */
+    letter-spacing: -3.12px;
+    z-index: 2;
+    font-family: "SF Pro Text";
+}
+
+.hero .image {
+    position: absolute;
+    top: -70px;
+    left: 0px;
+    z-index: 1;
+}
+
+.hero_btn p {
+    position: absolute;
+    top: -170px;
+    left: 1000px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+}
+
+.hero .hero_btn .arrow {
+    position: absolute;
+    top: -154px;
+    left: 1148px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+ }
+
+.hero .arrow img {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.hero .sns ul li{
+    list-style: none;
+}
+
+.hero .sns img {
+    position: relative;
+    left: 980px;
+    top: -80px;
+    margin: 20px;
+}
+
+.hero .line p {
+    position: absolute;
+    top: 700px;
+    left: -330px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.about h1 {
+    position: absolute;
+    top: 1125px;
+    left: 450px;
+    width: 931px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.96px;
+}
+
+.about h2 {
+    position: absolute;
+    top: 1325px;
+    left: 690px;
+    color: #000;
+    width: 441px;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.about .about_container ul li {
+    list-style: none;
+}
+
+.about .about_container p {
+    position: relative;
+    display: inline-block;
+    top: 1300px;
+    left: 250px;
+    width: 397.33334px;
+    height: 330px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.116);
+}
+
+.about ul li {
+    list-style: none;
+}
+
+.about img {
+    position: relative;
+    top: 870px;
+    left: 355px;
+    padding: 0px 95.333px 0px 0px;
+}
+
+.about .about_desc h1 {
+    position: absolute;
+    top: 1850px;
+    left: 640px;
+    width: 557px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+}
+
+.about_btn p {
+    position: absolute;
+    top: 2010px;
+    left: 820px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+}
+
+.about .about_btn .arrow {
+    position: absolute;
+    top: 2026px;
+    left: 969px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+ }
+
+.about_btn .arrow img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.service h1 {
+    position: absolute;
+    top: 2250px;
+    left: 120px;
+    color: #000;
+
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+
+.service_btn p {
+    position: absolute;
+    top: 2296px;
+    left: 1500px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+}
+
+.service .service_btn .arrow {
+    position: absolute;
+    top: 2312px;
+    left: 1649px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+ }
+
+.service_btn .arrow img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.service .service_line p {
+    position: absolute;
+    top: 2360px;
+    left: 15px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.service .service_num img {
+    position: absolute;
+    top: 2500px;
+    left: 120px;
+}
+
+.service .service_num h1 {
+    position: absolute;
+    top: 2850px;
+    left: 80px;
+    width: 477px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: -1.68px;
+}
+
+.service .item_menu ul li {
+    list-style: none;
+}
+
+.service .item_menu p {
+    position: relative;
+    top: 1620px;
+    left: 850px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.item_menu img {
+    position: absolute;
+    top: 2450px;
+    left: 1140px;
+}
