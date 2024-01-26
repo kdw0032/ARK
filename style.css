@@ -87,9 +87,9 @@ body {
     color: #000;
 }
 
-.Header p {
+.Header .Header_line {
     position: absolute;
-    top: 102px;
+    top: 112px;
     left: 10px;
     width: 1840px;
     height: 1px;
@@ -136,9 +136,9 @@ body {
     z-index: 1;
 }
 
-.hero_btn p {
+.hero_btn label {
     position: absolute;
-    top: -170px;
+    top: -154px;
     left: 1000px;
     width: 145px;
     height: 45px;
@@ -151,6 +151,7 @@ body {
     text-align: center;
     border: 2px solid #222;
     background-color: #000;
+    cursor: pointer;
 }
 
 .hero .hero_btn .arrow {
@@ -160,6 +161,7 @@ body {
     width: 45px;
     height: 45px;
     border: 2px solid #222;
+    cursor: pointer;
  }
 
 .hero .arrow img {
@@ -172,6 +174,7 @@ body {
 
 .hero .sns ul li{
     list-style: none;
+    cursor: pointer;
 }
 
 .hero .sns img {
@@ -179,9 +182,10 @@ body {
     left: 980px;
     top: -80px;
     margin: 20px;
+    cursor: pointer;
 }
 
-.hero .line p {
+.hero .hero_line  {
     position: absolute;
     top: 700px;
     left: -330px;
@@ -260,9 +264,9 @@ body {
     line-height: 32px; /* 133.333% */
 }
 
-.about_btn p {
+.about_btn label {
     position: absolute;
-    top: 2010px;
+    top: 2026px;
     left: 820px;
     width: 145px;
     height: 45px;
@@ -299,7 +303,6 @@ body {
     top: 2250px;
     left: 120px;
     color: #000;
-
     text-align: center;
     font-family: "SF Pro Text";
     font-size: 48px;
@@ -310,9 +313,9 @@ body {
 }
 
 
-.service_btn p {
+.service_btn label {
     position: absolute;
-    top: 2296px;
+    top: 2312px;
     left: 1500px;
     width: 145px;
     height: 45px;
@@ -325,6 +328,7 @@ body {
     text-align: center;
     border: 2px solid #222;
     background-color: #000;
+    cursor: pointer;
 }
 
 .service .service_btn .arrow {
@@ -334,6 +338,7 @@ body {
     width: 45px;
     height: 45px;
     border: 2px solid #222;
+    cursor: pointer;
  }
 
 .service_btn .arrow img {
@@ -344,9 +349,9 @@ body {
     height: 30px;
 }
 
-.service .service_line p {
+.service .service_line  {
     position: absolute;
-    top: 2360px;
+    top: 2370px;
     left: 15px;
     width: 1840px;
     height: 1px;
@@ -395,4 +400,830 @@ body {
     position: absolute;
     top: 2450px;
     left: 1140px;
+}
+
+.item_menu h1 {
+    position: absolute;
+    top: 3090px;
+    left: 1150px;
+    width: 557px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    text-align: start;
+}
+
+.item_btn label {
+    position: absolute;
+    top: 3216px;
+    left: 1150px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+ .item_btn .item_arrow {
+    position: absolute;
+    top: 3216px;
+    left: 1299px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.item_btn .item_arrow img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.Recent_Projects h1 {
+    position: absolute;
+    top: 3400px;
+    left: 120px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+.Recent_btn label {
+    position: absolute;
+    top: 3452px;
+    left: 1500px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.Recent_Projects .Recent_btn .Recent_arrow {
+    position: absolute;
+    top: 3452px;
+    left: 1649px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.Recent_btn .Recent_arrow img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.Recent_Projects .Recent_line  {
+    position: absolute;
+    top: 3510px;
+    left: 15px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.Recent_Projects .UVU_Classroom_Building .uvu {
+    position: absolute;
+    top: 3560px;
+    left: 120px;
+}
+
+.Recent_Projects .UVU_Classroom_Building p {
+    position: absolute;
+    top: 3560px;
+    left: 140px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .UVU_Classroom_Building .logo {
+    position: absolute;
+    top: 3588px;
+    left: 150px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .UVU_Classroom_Building h1 {
+    position: absolute;
+    top: 4120px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .UVU_Classroom_Building h2 {
+    position: absolute;
+    top: 4145px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .Monson_Center .thomas {
+    position: absolute;
+    top: 3555px;
+    right: 325px;
+}
+
+.Recent_Projects .Monson_Center p {
+    position: absolute;
+    top: 3555px;
+    right: 630px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .Monson_Center .logo2 {
+    position: absolute;
+    top: 3583px;
+    right: 637px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .Monson_Center h1 {
+    position: absolute;
+    top: 4120px;
+    left: 1155px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .Monson_Center h2 {
+    position: absolute;
+    top: 4145px;
+    left: 1155px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .USU_Swaner .usu {
+    position: absolute;
+    top: 4240px;
+    left: 120px;
+}
+
+.Recent_Projects .USU_Swaner p {
+    position: absolute;
+    top: 4240px;
+    left: 140px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .USU_Swaner .logo3 {
+    position: absolute;
+    top: 4268px;
+    left: 150px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .USU_Swaner h1 {
+    position: absolute;
+    top: 4800px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .USU_Swaner h2 {
+    position: absolute;
+    top: 4825px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .USU_Swaner .num45 {
+    position: absolute;
+    top: 4295px;
+    left: 1000px;
+}
+
+.Recent_Projects .USU_Swaner h3 {
+    position: absolute;
+    top: 4620px;
+    left: 1000px;
+    width: 557px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: -1.68px;
+}
+
+.Recent_Projects .UVU_Fulton .uvu2 {
+    position: absolute;
+    top: 4950px;
+    left: 120px;
+}
+
+.Recent_Projects .UVU_Fulton p {
+    position: absolute;
+    top: 4950px;
+    left: 140px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .UVU_Fulton .logo4 {
+    position: absolute;
+    top: 4978px;
+    left: 150px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .UVU_Fulton h1 {
+    position: absolute;
+    top: 5310px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .UVU_Fulton h2 {
+    position: absolute;
+    top: 5335px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .USU_College .usu2 {
+    position: absolute;
+    top: 4950px;
+    left: 720px;
+}
+
+.Recent_Projects .USU_College p {
+    position: absolute;
+    top: 4950px;
+    left: 740px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .USU_College .logo5 {
+    position: absolute;
+    top: 4978px;
+    left: 750px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .USU_College h1 {
+    position: absolute;
+    top: 5550px;
+    left: 720px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .USU_College h2 {
+    position: absolute;
+    top: 5575px;
+    left: 720px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .sugar_house .sugar {
+    position: absolute;
+    top: 5670px;
+    left: 120px;
+}
+
+.Recent_Projects .sugar_house p {
+    position: absolute;
+    top: 5680px;
+    left: 140px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .sugar_house .logo6 {
+    position: absolute;
+    top: 5708px;
+    left: 150px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .sugar_house h1 {
+    position: absolute;
+    top: 6230px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .sugar_house h2 {
+    position: absolute;
+    top: 6255px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .trax .uta {
+    position: absolute;
+    top: 5670px;
+    left: 1000px;
+}
+
+.Recent_Projects .trax p {
+    position: absolute;
+    top: 5680px;
+    left: 1040px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .trax .logo7 {
+    position: absolute;
+    top: 5708px;
+    left: 1050px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .trax h1 {
+    position: absolute;
+    top: 6230px;
+    left: 1000px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .trax h2 {
+    position: absolute;
+    top: 6255px;
+    left: 1000px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .module .unified {
+    position: absolute;
+    top: 6370px;
+    left: 120px;
+}
+
+.Recent_Projects .module p {
+    position: absolute;
+    top: 6380px;
+    left: 140px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .module .logo8 {
+    position: absolute;
+    top: 6408px;
+    left: 150px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .module h1 {
+    position: absolute;
+    top: 6965px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+}
+
+.Recent_Projects .module h2 {
+    position: absolute;
+    top: 6990px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .Geology .sutton {
+    position: absolute;
+    top: 6370px;
+    left: 1200px;
+}
+
+.Recent_Projects .Geology p {
+    position: absolute;
+    top: 6380px;
+    left: 1220px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .Geology .logo9 {
+    position: absolute;
+    top: 6408px;
+    left: 1230px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .Geology h1 {
+    position: absolute;
+    top: 6730px;
+    left: 1200px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+    text-align: start;
+}
+
+.Recent_Projects .Geology h2 {
+    position: absolute;
+    top: 6780px;
+    left: 1200px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .s-line .k {
+    position: absolute;
+    top: 7200px;
+    left: 120px;
+}
+
+.Recent_Projects .s-line h1 {
+    position: absolute;
+    top: 7530px;
+    left: 120px;
+    width: 521px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 114.286% */
+    letter-spacing: -1.68px;
+}
+
+.Recent_Projects .s-line .s_line {
+    position: absolute;
+    top: 7170px;
+    left: 1000px;
+}
+
+.Recent_Projects .s-line p {
+    position: absolute;
+    top: 7170px;
+    left: 1020px;
+    width: 60.433px;
+    height: 48px;
+    background-color: #000;
+}
+
+.Recent_Projects .s-line .logo10 {
+    position: absolute;
+    top: 7197px;
+    left: 1028px;
+    width: 44.433px;
+    height: 24px;
+}
+
+.Recent_Projects .s-line h2 {
+    position: absolute;
+    top: 7730px;
+    left: 1000px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+    text-align: start;
+}
+
+.Recent_Projects .s-line h3 {
+    position: absolute;
+    top: 7750px;
+    left: 1000px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.36px;
+}
+
+.Recent_Projects .Recent_btn2 h1 {
+    position: absolute;
+    top: 7870px;
+    left: 795px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+.Recent_btn2 label {
+    position: absolute;
+    top: 8022px;
+    left: 875px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.Recent_Projects .Recent_btn2 .Recent_arrow2 {
+    position: absolute;
+    top: 8022px;
+    left: 1020px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.Recent_btn2 .Recent_arrow2 img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.Our_team h1 {
+    position: absolute;
+    top: 8180px;
+    left: 120px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+.Our_team .Our_btn label {
+    position: absolute;
+    top: 8240px;
+    left: 1500px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.Our_team .Our_btn .Our_arrow {
+    position: absolute;
+    top: 8240px;
+    left: 1649px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.Our_team .Our_btn img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.Our_team .Our_line {
+    position: absolute;
+    top: 8300px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.Our_team h2 {
+    position: absolute;
+    top: 8325px;
+    left: 120px;
+    width: 744px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.Our_team .management ul li {
+    list-style: none;
+}
+
+.Our_team .management_title a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    top: 7200px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    line-height: 120px;
+}
+
+.Our_team .management_container1 ul li {
+    list-style: none;
+}
+
+.Our_team .management_container1 p {
+    position: relative;
+    display: inline-block;
+    top: 6820px;
+    left: 300px;
+    width: 327px;
+    height: 92px;
+    margin: 80px;
+    background-color: #F8F8F8
+}
+
+.Our_team .management_container2 ul li {
+    list-style: none;
+}
+
+.Our_team .management_container2 p {
+    position: relative;
+    display: inline-block;
+    top: 6985px;
+    left: 300px;
+    width: 327px;
+    height: 92px;
+    margin: 80px;
+    background-color: #F8F8F8
+}
+
+.Our_team .management_img ul li {
+    list-style: none;
+}
+
+.Our_team .management_img img {
+    position: relative;
+    display: inline-block;
+    top: 5990px;
+    left: 299px;
+    margin: 55px 80px;
 }
