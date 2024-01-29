@@ -44,9 +44,9 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 12000px;
     overflow-x: hidden;
 }
+
 
 .Header img {
     position: relative;
@@ -96,7 +96,7 @@ body {
     background-color: #000;
 }
 
-.hero  {
+#page-1  {
     position: absolute;
     top: 340px;
     left: 350px;
@@ -105,7 +105,7 @@ body {
     background-color: rgba(211, 211, 211, 0.048);
 }
 
-.hero_title h1 {
+#page-1 h1 {
     position: absolute;
     top: -180px;
     left: 500px;
@@ -116,7 +116,7 @@ body {
     line-height: normal;
 }
 
-.hero_title h2 {
+#page-1 h2 {
     position: absolute;
     top: -250px;
     left: -10px;
@@ -129,7 +129,7 @@ body {
     font-family: "SF Pro Text";
 }
 
-.hero .image {
+#page-1 .image {
     position: absolute;
     top: -70px;
     left: 0px;
@@ -154,7 +154,7 @@ body {
     cursor: pointer;
 }
 
-.hero .hero_btn .arrow {
+#page-1 .hero_btn .arrow {
     position: absolute;
     top: -154px;
     left: 1148px;
@@ -164,7 +164,7 @@ body {
     cursor: pointer;
  }
 
-.hero .arrow img {
+#page-1 .arrow img {
     position: absolute;
     top: 5px;
     left: 7px;
@@ -172,20 +172,21 @@ body {
     height: 30px;
 }
 
-.hero .sns ul li{
+.hero_sns ul li{
     list-style: none;
     cursor: pointer;
 }
 
-.hero .sns img {
+.hero_sns img {
     position: relative;
-    left: 980px;
-    top: -80px;
+    left: 950px;
+    top: -100px;
     margin: 20px;
     cursor: pointer;
+    z-index: 2;
 }
 
-.hero .hero_line  {
+#page-1 .hero_line  {
     position: absolute;
     top: 700px;
     left: -330px;
@@ -194,7 +195,7 @@ body {
     background-color: #000;
 }
 
-.about h1 {
+#page-2 .first_scroll {
     position: absolute;
     top: 1125px;
     left: 450px;
@@ -207,9 +208,35 @@ body {
     font-weight: 600;
     line-height: 64px; /* 133.333% */
     letter-spacing: -0.96px;
+    opacity: 0;
+    
 }
 
-.about h2 {
+@keyframes scroll1 {
+    0% {
+        top: 1175px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 1125px;
+        opacity: 1;
+    }
+}
+
+@keyframes scrollback {
+    0% {
+        top: 1125px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 1175px;
+        opacity: 0;
+    }
+}
+
+#page-2 h2 {
     position: absolute;
     top: 1325px;
     left: 690px;
@@ -224,11 +251,11 @@ body {
     letter-spacing: -0.48px;
 }
 
-.about .about_container ul li {
+#page-2 .about_container ul li {
     list-style: none;
 }
 
-.about .about_container p {
+#page-2 .about_container p {
     position: relative;
     display: inline-block;
     top: 1300px;
@@ -239,20 +266,20 @@ body {
     background-color: rgba(211, 211, 211, 0.116);
 }
 
-.about ul li {
+#page-2 ul li {
     list-style: none;
 }
 
-.about img {
+#page-2 img {
     position: relative;
     top: 870px;
     left: 355px;
     padding: 0px 95.333px 0px 0px;
 }
 
-.about .about_desc h1 {
+#page-2 .about_desc h1 {
     position: absolute;
-    top: 1850px;
+    top: 1880px;
     left: 640px;
     width: 557px;
     color: #000;
@@ -264,9 +291,10 @@ body {
     line-height: 32px; /* 133.333% */
 }
 
-.about_btn label {
+
+#page-2 .about_btn label {
     position: absolute;
-    top: 2026px;
+    top: 2036px;
     left: 820px;
     width: 145px;
     height: 45px;
@@ -281,16 +309,16 @@ body {
     background-color: #000;
 }
 
-.about .about_btn .arrow {
+#page-2 .about_btn .arrow {
     position: absolute;
-    top: 2026px;
+    top: 2036px;
     left: 969px;
     width: 45px;
     height: 45px;
     border: 2px solid #222;
  }
 
-.about_btn .arrow img {
+ #page-2 .about_btn .arrow img {
     position: absolute;
     top: 7px;
     left: 7px;
@@ -298,7 +326,7 @@ body {
     height: 30px;
 }
 
-.service h1 {
+#page-3 h1 {
     position: absolute;
     top: 2250px;
     left: 120px;
@@ -313,7 +341,7 @@ body {
 }
 
 
-.service_btn label {
+#page-3 .service_btn label {
     position: absolute;
     top: 2312px;
     left: 1500px;
@@ -331,7 +359,7 @@ body {
     cursor: pointer;
 }
 
-.service .service_btn .arrow {
+#page-3 .service_btn .arrow {
     position: absolute;
     top: 2312px;
     left: 1649px;
@@ -341,7 +369,7 @@ body {
     cursor: pointer;
  }
 
-.service_btn .arrow img {
+ #page-3 .service_btn .arrow img {
     position: absolute;
     top: 7px;
     left: 7px;
@@ -349,7 +377,7 @@ body {
     height: 30px;
 }
 
-.service .service_line  {
+#page-3 .service_line  {
     position: absolute;
     top: 2370px;
     left: 15px;
@@ -358,13 +386,38 @@ body {
     background-color: #000;
 }
 
-.service .service_num img {
+@keyframes scroll2 {
+    0% {
+        top:3206px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 2500px;
+        opacity: 1;
+    }
+}
+
+@keyframes scrollback2 {
+    0% {
+        top:2500px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3206px;
+        opacity: 0;
+    }    
+}
+
+#page-3 .service_num img {
     position: absolute;
     top: 2500px;
     left: 120px;
+    opacity: 0;
 }
 
-.service .service_num h1 {
+#page-3 .service_num h1 {
     position: absolute;
     top: 2850px;
     left: 80px;
@@ -377,13 +430,38 @@ body {
     font-weight: 700;
     line-height: 64px; /* 114.286% */
     letter-spacing: -1.68px;
+    opacity: 0;
 }
 
-.service .item_menu ul li {
+@keyframes scroll3 {
+    0% {
+        top:3506px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 2850px;
+        opacity: 1;
+    }    
+}
+
+@keyframes scrollback3 {
+    0% {
+        top:2850px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3506px;
+        opacity: 0;
+    }    
+}
+
+#page-3 .item_menu ul li {
     list-style: none;
 }
 
-.service .item_menu p {
+#page-3 .item_menu p {
     position: relative;
     top: 1620px;
     left: 850px;
@@ -396,13 +474,38 @@ body {
     letter-spacing: -0.48px;
 }
 
-.item_menu img {
+#page-3 .item_menu img {
     position: absolute;
     top: 2450px;
     left: 1140px;
+    opacity: 0;
 }
 
-.item_menu h1 {
+@keyframes scroll4 {
+    0%{
+        left: 1300px;
+        opacity: 0;
+    }
+
+    100% {
+        laft: 1140px;
+        opacity: 1;
+    }
+}
+
+@keyframes scrollback4 {
+    0%{
+        laft: 1140px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 1300px;
+        opacity: 0;
+    }
+}
+
+#page-3 .item_menu h1 {
     position: absolute;
     top: 3090px;
     left: 1150px;
@@ -416,7 +519,7 @@ body {
     text-align: start;
 }
 
-.item_btn label {
+#page-3 .item_btn label {
     position: absolute;
     top: 3216px;
     left: 1150px;
@@ -434,7 +537,7 @@ body {
     cursor: pointer;
 }
 
- .item_btn .item_arrow {
+#page-3 .item_btn .item_arrow {
     position: absolute;
     top: 3216px;
     left: 1299px;
@@ -444,7 +547,7 @@ body {
     cursor: pointer;
  }
 
-.item_btn .item_arrow img {
+ #page-3 .item_btn .item_arrow img {
     position: absolute;
     top: 7px;
     left: 7px;
@@ -452,7 +555,7 @@ body {
     height: 30px;
 }
 
-.Recent_Projects h1 {
+#page-4 h1 {
     position: absolute;
     top: 3400px;
     left: 120px;
@@ -466,7 +569,7 @@ body {
     letter-spacing: -0.96px;
 }
 
-.Recent_btn label {
+#page-4 .Recent_btn label {
     position: absolute;
     top: 3452px;
     left: 1500px;
@@ -484,7 +587,7 @@ body {
     cursor: pointer;
 }
 
-.Recent_Projects .Recent_btn .Recent_arrow {
+#page-4 .Recent_btn .Recent_arrow {
     position: absolute;
     top: 3452px;
     left: 1649px;
@@ -494,7 +597,7 @@ body {
     cursor: pointer;
  }
 
-.Recent_btn .Recent_arrow img {
+ #page-4 .Recent_btn .Recent_arrow img {
     position: absolute;
     top: 7px;
     left: 7px;
@@ -502,7 +605,7 @@ body {
     height: 30px;
 }
 
-.Recent_Projects .Recent_line  {
+#page-4 .Recent_line  {
     position: absolute;
     top: 3510px;
     left: 15px;
@@ -511,13 +614,13 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .UVU_Classroom_Building .uvu {
+#page-4 .UVU_Classroom_Building .uvu {
     position: absolute;
     top: 3560px;
     left: 120px;
 }
 
-.Recent_Projects .UVU_Classroom_Building p {
+#page-4 .UVU_Classroom_Building p {
     position: absolute;
     top: 3560px;
     left: 140px;
@@ -526,7 +629,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .UVU_Classroom_Building .logo {
+#page-4 .UVU_Classroom_Building .logo {
     position: absolute;
     top: 3588px;
     left: 150px;
@@ -534,7 +637,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .UVU_Classroom_Building h1 {
+#page-4 .UVU_Classroom_Building h1 {
     position: absolute;
     top: 4120px;
     left: 120px;
@@ -547,7 +650,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .UVU_Classroom_Building h2 {
+#page-4 .UVU_Classroom_Building h2 {
     position: absolute;
     top: 4145px;
     left: 120px;
@@ -560,13 +663,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .Monson_Center .thomas {
+#page-4 .Monson_Center .thomas {
     position: absolute;
     top: 3555px;
     right: 325px;
 }
 
-.Recent_Projects .Monson_Center p {
+#page-4 .Monson_Center p {
     position: absolute;
     top: 3555px;
     right: 630px;
@@ -575,7 +678,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .Monson_Center .logo2 {
+#page-4 .Monson_Center .logo2 {
     position: absolute;
     top: 3583px;
     right: 637px;
@@ -583,7 +686,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .Monson_Center h1 {
+#page-4 .Monson_Center h1 {
     position: absolute;
     top: 4120px;
     left: 1155px;
@@ -596,7 +699,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .Monson_Center h2 {
+#page-4 .Monson_Center h2 {
     position: absolute;
     top: 4145px;
     left: 1155px;
@@ -609,13 +712,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .USU_Swaner .usu {
+#page-4 .USU_Swaner .usu {
     position: absolute;
     top: 4240px;
     left: 120px;
 }
 
-.Recent_Projects .USU_Swaner p {
+#page-4 .USU_Swaner p {
     position: absolute;
     top: 4240px;
     left: 140px;
@@ -624,7 +727,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .USU_Swaner .logo3 {
+#page-4 .USU_Swaner .logo3 {
     position: absolute;
     top: 4268px;
     left: 150px;
@@ -632,7 +735,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .USU_Swaner h1 {
+#page-4 .USU_Swaner h1 {
     position: absolute;
     top: 4800px;
     left: 120px;
@@ -645,7 +748,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .USU_Swaner h2 {
+#page-4 .USU_Swaner h2 {
     position: absolute;
     top: 4825px;
     left: 120px;
@@ -658,13 +761,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .USU_Swaner .num45 {
+#page-4 .USU_Swaner .num45 {
     position: absolute;
     top: 4295px;
     left: 1000px;
 }
 
-.Recent_Projects .USU_Swaner h3 {
+#page-4 .USU_Swaner h3 {
     position: absolute;
     top: 4620px;
     left: 1000px;
@@ -679,13 +782,13 @@ body {
     letter-spacing: -1.68px;
 }
 
-.Recent_Projects .UVU_Fulton .uvu2 {
+#page-4 .UVU_Fulton .uvu2 {
     position: absolute;
     top: 4950px;
     left: 120px;
 }
 
-.Recent_Projects .UVU_Fulton p {
+#page-4 .UVU_Fulton p {
     position: absolute;
     top: 4950px;
     left: 140px;
@@ -694,7 +797,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .UVU_Fulton .logo4 {
+#page-4 .UVU_Fulton .logo4 {
     position: absolute;
     top: 4978px;
     left: 150px;
@@ -702,7 +805,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .UVU_Fulton h1 {
+#page-4 .UVU_Fulton h1 {
     position: absolute;
     top: 5310px;
     left: 120px;
@@ -715,7 +818,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .UVU_Fulton h2 {
+#page-4 .UVU_Fulton h2 {
     position: absolute;
     top: 5335px;
     left: 120px;
@@ -728,13 +831,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .USU_College .usu2 {
+#page-4 .USU_College .usu2 {
     position: absolute;
     top: 4950px;
     left: 720px;
 }
 
-.Recent_Projects .USU_College p {
+#page-4 .USU_College p {
     position: absolute;
     top: 4950px;
     left: 740px;
@@ -743,7 +846,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .USU_College .logo5 {
+#page-4 .USU_College .logo5 {
     position: absolute;
     top: 4978px;
     left: 750px;
@@ -751,7 +854,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .USU_College h1 {
+#page-4 .USU_College h1 {
     position: absolute;
     top: 5550px;
     left: 720px;
@@ -764,7 +867,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .USU_College h2 {
+#page-4 .USU_College h2 {
     position: absolute;
     top: 5575px;
     left: 720px;
@@ -777,13 +880,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .sugar_house .sugar {
+#page-4 .sugar_house .sugar {
     position: absolute;
     top: 5670px;
     left: 120px;
 }
 
-.Recent_Projects .sugar_house p {
+#page-4 .sugar_house p {
     position: absolute;
     top: 5680px;
     left: 140px;
@@ -792,7 +895,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .sugar_house .logo6 {
+#page-4 .sugar_house .logo6 {
     position: absolute;
     top: 5708px;
     left: 150px;
@@ -800,7 +903,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .sugar_house h1 {
+#page-4 .sugar_house h1 {
     position: absolute;
     top: 6230px;
     left: 120px;
@@ -813,7 +916,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .sugar_house h2 {
+#page-4 .sugar_house h2 {
     position: absolute;
     top: 6255px;
     left: 120px;
@@ -826,13 +929,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .trax .uta {
+#page-4 .trax .uta {
     position: absolute;
     top: 5670px;
     left: 1000px;
 }
 
-.Recent_Projects .trax p {
+#page-4 .trax p {
     position: absolute;
     top: 5680px;
     left: 1040px;
@@ -841,7 +944,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .trax .logo7 {
+#page-4 .trax .logo7 {
     position: absolute;
     top: 5708px;
     left: 1050px;
@@ -849,7 +952,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .trax h1 {
+#page-4 .trax h1 {
     position: absolute;
     top: 6230px;
     left: 1000px;
@@ -862,7 +965,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .trax h2 {
+#page-4 .trax h2 {
     position: absolute;
     top: 6255px;
     left: 1000px;
@@ -875,13 +978,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .module .unified {
+#page-4 .module .unified {
     position: absolute;
     top: 6370px;
     left: 120px;
 }
 
-.Recent_Projects .module p {
+#page-4 .module p {
     position: absolute;
     top: 6380px;
     left: 140px;
@@ -890,7 +993,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .module .logo8 {
+#page-4 .module .logo8 {
     position: absolute;
     top: 6408px;
     left: 150px;
@@ -898,7 +1001,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .module h1 {
+#page-4 .module h1 {
     position: absolute;
     top: 6965px;
     left: 120px;
@@ -911,7 +1014,7 @@ body {
     letter-spacing: -0.4px;
 }
 
-.Recent_Projects .module h2 {
+#page-4 .module h2 {
     position: absolute;
     top: 6990px;
     left: 120px;
@@ -924,13 +1027,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .Geology .sutton {
+#page-4 .Geology .sutton {
     position: absolute;
     top: 6370px;
     left: 1200px;
 }
 
-.Recent_Projects .Geology p {
+#page-4 .Geology p {
     position: absolute;
     top: 6380px;
     left: 1220px;
@@ -939,7 +1042,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .Geology .logo9 {
+#page-4 .Geology .logo9 {
     position: absolute;
     top: 6408px;
     left: 1230px;
@@ -947,7 +1050,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .Geology h1 {
+#page-4 .Geology h1 {
     position: absolute;
     top: 6730px;
     left: 1200px;
@@ -961,7 +1064,7 @@ body {
     text-align: start;
 }
 
-.Recent_Projects .Geology h2 {
+#page-4 .Geology h2 {
     position: absolute;
     top: 6780px;
     left: 1200px;
@@ -974,13 +1077,13 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .s-line .k {
+#page-4 .s-line .k {
     position: absolute;
     top: 7200px;
     left: 120px;
 }
 
-.Recent_Projects .s-line h1 {
+#page-4 .s-line h1 {
     position: absolute;
     top: 7530px;
     left: 120px;
@@ -995,13 +1098,13 @@ body {
     letter-spacing: -1.68px;
 }
 
-.Recent_Projects .s-line .s_line {
+#page-4 .s-line .s_line {
     position: absolute;
     top: 7170px;
     left: 1000px;
 }
 
-.Recent_Projects .s-line p {
+#page-4 .s-line p {
     position: absolute;
     top: 7170px;
     left: 1020px;
@@ -1010,7 +1113,7 @@ body {
     background-color: #000;
 }
 
-.Recent_Projects .s-line .logo10 {
+#page-4 .s-line .logo10 {
     position: absolute;
     top: 7197px;
     left: 1028px;
@@ -1018,7 +1121,7 @@ body {
     height: 24px;
 }
 
-.Recent_Projects .s-line h2 {
+#page-4 .s-line h2 {
     position: absolute;
     top: 7730px;
     left: 1000px;
@@ -1032,7 +1135,7 @@ body {
     text-align: start;
 }
 
-.Recent_Projects .s-line h3 {
+#page-4 .s-line h3 {
     position: absolute;
     top: 7750px;
     left: 1000px;
@@ -1045,7 +1148,7 @@ body {
     letter-spacing: -0.36px;
 }
 
-.Recent_Projects .Recent_btn2 h1 {
+#page-4 .Recent_btn2 h1 {
     position: absolute;
     top: 7870px;
     left: 795px;
@@ -1059,7 +1162,7 @@ body {
     letter-spacing: -0.96px;
 }
 
-.Recent_btn2 label {
+#page-4 .Recent_btn2 label {
     position: absolute;
     top: 8022px;
     left: 875px;
@@ -1077,7 +1180,7 @@ body {
     cursor: pointer;
 }
 
-.Recent_Projects .Recent_btn2 .Recent_arrow2 {
+#page-4 .Recent_btn2 .Recent_arrow2 {
     position: absolute;
     top: 8022px;
     left: 1020px;
@@ -1087,7 +1190,7 @@ body {
     cursor: pointer;
  }
 
-.Recent_btn2 .Recent_arrow2 img {
+ #page-4 .Recent_btn2 .Recent_arrow2 img {
     position: absolute;
     top: 7px;
     left: 7px;
@@ -1095,7 +1198,7 @@ body {
     height: 30px;
 }
 
-.Our_team h1 {
+#page-5 h1 {
     position: absolute;
     top: 8180px;
     left: 120px;
@@ -1109,7 +1212,7 @@ body {
     letter-spacing: -0.96px;
 }
 
-.Our_team .Our_btn label {
+#page-5 .Our_btn label {
     position: absolute;
     top: 8240px;
     left: 1500px;
@@ -1127,7 +1230,7 @@ body {
     cursor: pointer;
 }
 
-.Our_team .Our_btn .Our_arrow {
+#page-5 .Our_btn .Our_arrow {
     position: absolute;
     top: 8240px;
     left: 1649px;
@@ -1137,7 +1240,7 @@ body {
     cursor: pointer;
  }
 
-.Our_team .Our_btn img {
+#page-5 .Our_btn img {
     position: absolute;
     top: 7px;
     left: 7px;
@@ -1145,7 +1248,7 @@ body {
     height: 30px;
 }
 
-.Our_team .Our_line {
+#page-5 .Our_line {
     position: absolute;
     top: 8300px;
     left: 10px;
@@ -1154,7 +1257,7 @@ body {
     background-color: #000;
 }
 
-.Our_team h2 {
+#page-5 h2 {
     position: absolute;
     top: 8325px;
     left: 120px;
@@ -1167,11 +1270,11 @@ body {
     line-height: 32px;
 }
 
-.Our_team .management ul li {
+#page-5 .management_title ul li {
     list-style: none;
 }
 
-.Our_team .management_title a {
+#page-5 .management_title a {
     position: relative;
     display: block;
     text-decoration: none;
@@ -1186,44 +1289,623 @@ body {
     line-height: 120px;
 }
 
-.Our_team .management_container1 ul li {
+#page-5 .management_container1 ul li {
     list-style: none;
 }
 
-.Our_team .management_container1 p {
+#page-5 .management_container1 p {
     position: relative;
     display: inline-block;
-    top: 6820px;
+    top: 6880px;
     left: 300px;
     width: 327px;
     height: 92px;
     margin: 80px;
-    background-color: #F8F8F8
+    background-color: #cccccc70
 }
 
-.Our_team .management_container2 ul li {
+#page-5 .management_container2 ul li {
     list-style: none;
 }
 
-.Our_team .management_container2 p {
+#page-5 .management_container2 p {
     position: relative;
     display: inline-block;
-    top: 6985px;
+    top: 7115px;
     left: 300px;
     width: 327px;
     height: 92px;
     margin: 80px;
-    background-color: #F8F8F8
+    background-color: #cccccc70
 }
 
-.Our_team .management_img ul li {
+#page-5 .management_img .jane img {
+    position: absolute;
+    top: 8482px;
+    left: 420px;
+}
+
+#page-5 .management_img .jane h1 {
+    position: absolute;
+    top: 8795px;
+    left: 430px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#page-5 .management_img .jane p {
+    position: absolute;
+    top: 8830px;
+    left: 430px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#page-5 .management_img .cameron img {
+    position: absolute;
+    top: 8482px;
+    left: 913px;
+}
+
+#page-5 .management_img .cameron h1 {
+    position: absolute;
+    top: 8795px;
+    left: 920px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#page-5 .management_img .cameron p {
+    position: absolute;
+    top: 8830px;
+    left: 920px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#page-5 .management_img .brooklyn img {
+    position: absolute;
+    top: 8482px;
+    left: 1405px;
+}
+
+#page-5 .management_img .brooklyn h1 {
+    position: absolute;
+    top: 8795px;
+    left: 1415px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#page-5 .management_img .brooklyn p {
+    position: absolute;
+    top: 8830px;
+    left: 1415px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#page-5 .management_img .jacob img {
+    position: absolute;
+    top: 8992px;
+    left: 420px;
+}
+
+#page-5 .management_img .jacob h1 {
+    position: absolute;
+    top: 9300px;
+    left: 430px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#page-5 .management_img .jacob p {
+    position: absolute;
+    top: 9335px;
+    left: 430px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#page-5 .management_img .jerome img {
+    position: absolute;
+    top: 8992px;
+    left: 913px;
+}
+
+#page-5 .management_img .jerome h1 {
+    position: absolute;
+    top: 9300px;
+    left: 920px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#page-5 .management_img .jerome p {
+    position: absolute;
+    top: 9335px;
+    left: 920px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#page-5 .management_img .kristin img {
+    position: absolute;
+    top: 8992px;
+    left: 1405px;
+}
+
+#page-5 .management_img .kristin h1 {
+    position: absolute;
+    top: 9300px;
+    left: 1415px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+#page-5 .management_img .kristin p {
+    position: absolute;
+    top: 9335px;
+    left: 1415px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#page-6 h1 {
+    position: absolute;
+    top: 9580px;
+    left: 120px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+#page-6 .blog_btn label {
+    position: absolute;
+    top: 9630px;
+    left: 1500px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#page-6 .blog_btn .blog_arrow {
+    position: absolute;
+    top: 9630px;
+    left: 1649px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+ #page-6 .blog_btn img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+
+#page-6 .blog_line {
+    position: absolute;
+    top: 9700px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+#page-6 .blog_desc1 img {
+    position: absolute;
+    top: 9787px;
+    left: 470px;
+}
+
+#page-6.blog_desc1 span {
+    position: absolute;
+    top: 10290px;
+    left: 490px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+#page-6 .blog_desc1 h1 {
+    position: absolute;
+    top: 10295px;
+    left: 490px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    z-index: 2;
+}
+
+#page-6 .blog_desc1 h2 {
+    position: absolute;
+    top: 10335px;
+    left: 490px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;    
+    font-weight: 400;
+    line-height: 24px;
+    z-index: 2;
+    font-style: normal;
+}
+
+#page-6 .blog_desc2 img {
+    position: absolute;
+    top: 9787px;
+    left: 1068px;
+}
+
+#page-6 .blog_desc2 span {
+    position: absolute;
+    top: 10290px;
+    left: 1080px;
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+#page-6 .blog_desc2 h1 {
+    position: absolute;
+    top: 10295px;
+    left: 1080px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    z-index: 2;
+}
+
+#page-6 .blog_desc2 h2 {
+    position: absolute;
+    top: 10335px;
+    left: 1080px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;    
+    font-weight: 400;
+    line-height: 24px;
+    z-index: 2;
+    font-style: normal;
+}
+
+#page-6 .blog_desc .blog_desc_container ul li {
     list-style: none;
 }
 
-.Our_team .management_img img {
+#page-6 .blog_desc .blog_desc_container p {
     position: relative;
     display: inline-block;
-    top: 5990px;
-    left: 299px;
-    margin: 55px 80px;
+    top: 7864px;
+    left: 400px;
+    width: 532px;
+    height: 168px;
+    margin: 30px;
+    background-color: #cccccc70;
+    z-index: 1;
+}
+
+.footer h1 {
+    position: absolute;
+    top: 10780px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+.footer .footer_btn label {
+    position: absolute;
+    top: 10840px;
+    left: 1500px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.footer .footer_btn .footer_arrow {
+    position: absolute;
+    top: 10840px;
+    left: 1649px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.footer .footer_btn img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer .footer_line {
+    position: absolute;
+    top: 10900px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.footer h2 {
+    position: absolute;
+    top: 10950px;
+    left: 120px;
+    width: 376px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.8px;
+}
+
+.footer .footer_btn2 label {
+    position: absolute;
+    top: 11090px;
+    left: 120px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.footer .footer_btn2 .footer_arrow2 {
+    position: absolute;
+    top: 11090px;
+    left: 269px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.footer .footer_btn2 img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer .footer_menu ul li {
+    list-style: none;
+}
+
+.footer .footer_menu a {
+    position: relative;
+    top: 8750px;
+    left: 50px;
+    text-decoration: none;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.footer .footer_address ul li {
+    list-style: none;
+}
+
+.footer .footer_address a {
+    position: relative;
+    display: block;
+    top: 8330px;
+    left: 700px;
+    text-decoration: none;
+    width: 199px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+
+.footer .footer_address p {
+    position: relative;
+    top: 8380px;
+    left: 735px;
+}
+
+.footer .footer_address2 ul li {
+    list-style: none;
+}
+
+.footer .footer_address2 a {
+    position: relative;
+    display: block;
+    top: 8060px;
+    left: 1000px;
+    text-decoration: none;
+    width: 199px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer .footer_address2 p {
+    position: relative;
+    top: 8115px;
+    left: 1035px;
+}
+
+.footer .footer_address3 ul li {
+    list-style: none;
+}
+
+.footer .footer_address3 a {
+    position: relative;
+    display: block;
+    top: 7795px;
+    left: 1300px;
+    text-decoration: none;
+    width: 199px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer .footer_address3 p {
+    position: relative;
+    top: 7850px;
+    left: 1335px;
+}
+
+.footer .footer_sns ul li {
+    list-style: none;
+}
+
+.footer .footer_sns img {
+    position: relative;
+    top: 7900px;
+    left: 1500px;
+    margin: 20px;
+}
+
+.footer .footer_line2 {
+    position: absolute;
+    top: 11500px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.footer .copywirting p {
+    position: absolute;
+    top: 11500px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+.footer .copywirting span {
+    position: absolute;
+    top: 11520px;
+    left: 1500px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
 }
