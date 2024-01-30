@@ -212,30 +212,6 @@ body {
     
 }
 
-@keyframes scroll1 {
-    0% {
-        top: 1175px;
-        opacity: 0;
-    }
-
-    100% {
-        top: 1125px;
-        opacity: 1;
-    }
-}
-
-@keyframes scrollback {
-    0% {
-        top: 1125px;
-        opacity: 1;
-    }
-
-    100% {
-        top: 1175px;
-        opacity: 0;
-    }
-}
-
 #page-2 h2 {
     position: absolute;
     top: 1325px;
@@ -292,7 +268,7 @@ body {
 }
 
 
-#page-2 .about_btn label {
+#page-2 .about_btn a {
     position: absolute;
     top: 2036px;
     left: 820px;
@@ -307,6 +283,8 @@ body {
     text-align: center;
     border: 2px solid #222;
     background-color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #page-2 .about_btn .arrow {
@@ -386,30 +364,6 @@ body {
     background-color: #000;
 }
 
-@keyframes scroll2 {
-    0% {
-        top:3206px;
-        opacity: 0;
-    }
-
-    100% {
-        top: 2500px;
-        opacity: 1;
-    }
-}
-
-@keyframes scrollback2 {
-    0% {
-        top:2500px;
-        opacity: 1;
-    }
-
-    100% {
-        top: 3206px;
-        opacity: 0;
-    }    
-}
-
 #page-3 .service_num img {
     position: absolute;
     top: 2500px;
@@ -431,30 +385,6 @@ body {
     line-height: 64px; /* 114.286% */
     letter-spacing: -1.68px;
     opacity: 0;
-}
-
-@keyframes scroll3 {
-    0% {
-        top:3506px;
-        opacity: 0;
-    }
-
-    100% {
-        top: 2850px;
-        opacity: 1;
-    }    
-}
-
-@keyframes scrollback3 {
-    0% {
-        top:2850px;
-        opacity: 1;
-    }
-
-    100% {
-        top: 3506px;
-        opacity: 0;
-    }    
 }
 
 #page-3 .item_menu ul li {
@@ -479,30 +409,6 @@ body {
     top: 2450px;
     left: 1140px;
     opacity: 0;
-}
-
-@keyframes scroll4 {
-    0%{
-        left: 1300px;
-        opacity: 0;
-    }
-
-    100% {
-        laft: 1140px;
-        opacity: 1;
-    }
-}
-
-@keyframes scrollback4 {
-    0%{
-        laft: 1140px;
-        opacity: 1;
-    }
-
-    100% {
-        left: 1300px;
-        opacity: 0;
-    }
 }
 
 #page-3 .item_menu h1 {
@@ -618,15 +524,17 @@ body {
     position: absolute;
     top: 3560px;
     left: 120px;
+    opacity: 0;
 }
 
-#page-4 .UVU_Classroom_Building p {
+#page-4 .UVU_Classroom_Building .logo_background {
     position: absolute;
     top: 3560px;
     left: 140px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .UVU_Classroom_Building .logo {
@@ -635,6 +543,7 @@ body {
     left: 150px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .UVU_Classroom_Building h1 {
@@ -667,15 +576,17 @@ body {
     position: absolute;
     top: 3555px;
     right: 325px;
+    opacity: 0;
 }
 
-#page-4 .Monson_Center p {
+#page-4 .Monson_Center .logo_background2 {
     position: absolute;
     top: 3555px;
     right: 630px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .Monson_Center .logo2 {
@@ -684,6 +595,7 @@ body {
     right: 637px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .Monson_Center h1 {
@@ -716,15 +628,17 @@ body {
     position: absolute;
     top: 4240px;
     left: 120px;
+    opacity: 0;
 }
 
-#page-4 .USU_Swaner p {
+#page-4 .USU_Swaner .logo_background3 {
     position: absolute;
     top: 4240px;
     left: 140px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .USU_Swaner .logo3 {
@@ -733,6 +647,7 @@ body {
     left: 150px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .USU_Swaner h1 {
@@ -765,9 +680,10 @@ body {
     position: absolute;
     top: 4295px;
     left: 1000px;
+    opacity: 0;
 }
 
-#page-4 .USU_Swaner h3 {
+#page-4 .USU_Swaner .usu_desc {
     position: absolute;
     top: 4620px;
     left: 1000px;
@@ -780,21 +696,24 @@ body {
     font-weight: 700;
     line-height: 64px; /* 114.286% */
     letter-spacing: -1.68px;
+    opacity: 0;
 }
 
 #page-4 .UVU_Fulton .uvu2 {
     position: absolute;
     top: 4950px;
     left: 120px;
+    opacity: 0;
 }
 
-#page-4 .UVU_Fulton p {
+#page-4 .UVU_Fulton .logo_background4 {
     position: absolute;
     top: 4950px;
     left: 140px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .UVU_Fulton .logo4 {
@@ -803,6 +722,7 @@ body {
     left: 150px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .UVU_Fulton h1 {
@@ -834,24 +754,27 @@ body {
 #page-4 .USU_College .usu2 {
     position: absolute;
     top: 4950px;
-    left: 720px;
+    right: 255px;
+    opacity: 0;
 }
 
-#page-4 .USU_College p {
+#page-4 .USU_College .logo_background5 {
     position: absolute;
     top: 4950px;
-    left: 740px;
+    right: 1055px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .USU_College .logo5 {
     position: absolute;
     top: 4978px;
-    left: 750px;
+    right: 1060px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .USU_College h1 {
@@ -884,15 +807,17 @@ body {
     position: absolute;
     top: 5670px;
     left: 120px;
+    opacity: 0;
 }
 
-#page-4 .sugar_house p {
+#page-4 .sugar_house .logo_background6 {
     position: absolute;
     top: 5680px;
     left: 140px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .sugar_house .logo6 {
@@ -901,6 +826,7 @@ body {
     left: 150px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .sugar_house h1 {
@@ -933,23 +859,26 @@ body {
     position: absolute;
     top: 5670px;
     left: 1000px;
+    opacity: 0;
 }
 
-#page-4 .trax p {
+#page-4 .trax .logo_background7 {
     position: absolute;
-    top: 5680px;
-    left: 1040px;
+    top: 5670px;
+    left: 1020px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .trax .logo7 {
     position: absolute;
-    top: 5708px;
-    left: 1050px;
+    top: 5698px;
+    left: 1030px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .trax h1 {
@@ -982,15 +911,17 @@ body {
     position: absolute;
     top: 6370px;
     left: 120px;
+    opacity: 0;
 }
 
-#page-4 .module p {
+#page-4 .module .logo_background8 {
     position: absolute;
     top: 6380px;
     left: 140px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .module .logo8 {
@@ -999,6 +930,7 @@ body {
     left: 150px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .module h1 {
@@ -1031,23 +963,26 @@ body {
     position: absolute;
     top: 6370px;
     left: 1200px;
+    opacity: 0;
 }
 
-#page-4 .Geology p {
+#page-4 .Geology .logo_background9 {
     position: absolute;
-    top: 6380px;
+    top: 6370px;
     left: 1220px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .Geology .logo9 {
     position: absolute;
-    top: 6408px;
+    top: 6398px;
     left: 1230px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .Geology h1 {
@@ -1081,9 +1016,10 @@ body {
     position: absolute;
     top: 7200px;
     left: 120px;
+    opacity: 0;
 }
 
-#page-4 .s-line h1 {
+#page-4 .s-line .line_title {
     position: absolute;
     top: 7530px;
     left: 120px;
@@ -1096,21 +1032,24 @@ body {
     font-weight: 700;
     line-height: 64px; /* 114.286% */
     letter-spacing: -1.68px;
+    opacity: 0;
 }
 
 #page-4 .s-line .s_line {
     position: absolute;
     top: 7170px;
     left: 1000px;
+    opacity: 0;
 }
 
-#page-4 .s-line p {
+#page-4 .s-line .logo_background10 {
     position: absolute;
     top: 7170px;
     left: 1020px;
     width: 60.433px;
     height: 48px;
     background-color: #000;
+    opacity: 0;
 }
 
 #page-4 .s-line .logo10 {
@@ -1119,6 +1058,7 @@ body {
     left: 1028px;
     width: 44.433px;
     height: 24px;
+    opacity: 0;
 }
 
 #page-4 .s-line h2 {
@@ -1565,7 +1505,7 @@ body {
     left: 470px;
 }
 
-#page-6.blog_desc1 span {
+#page-6 .blog_desc1 span {
     position: absolute;
     top: 10290px;
     left: 490px;

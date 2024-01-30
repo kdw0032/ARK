@@ -1,0 +1,748 @@
+@keyframes scroll1 {
+    0% {
+        top: 1175px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 1125px;
+        opacity: 1;
+    }
+} /*first_scrooll클래스에 대한 에니메이션*/
+
+@keyframes scrollback {
+    0% {
+        top: 1125px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 1175px;
+        opacity: 0;
+    }
+} /*first_scrooll클래스에 대한 에니메이션*/
+
+@keyframes scroll2 {
+    0% {
+        top:2650px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 2500px;
+        opacity: 1;
+    }
+} /*numbers클래스에 대한 에니메이션*/
+
+@keyframes scrollback2 {
+    0% {
+        top:2500px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3206px;
+        opacity: 0;
+    }    
+} /*numbers클래스에 대한 에니메이션*/
+
+@keyframes scroll3 {
+    0% {
+        top:2916px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 2850px;
+        opacity: 1;
+    }    
+} /*service_title클래스에 대한 에니메이션*/
+
+@keyframes scrollback3 {
+    0% {
+        top:2850px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3506px;
+        opacity: 0;
+    }    
+} /*service_title클래스에 대한 에니메이션*/
+
+@keyframes scroll4 {
+    0%{
+        left: 1300px;
+        opacity: 0;
+    }
+
+    100% {
+        laft: 1140px;
+        opacity: 1;
+    }
+} /*buildings클래스에 대한 에니메이션*/
+
+@keyframes scrollback4 {
+    0%{
+        laft: 1140px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 1300px;
+        opacity: 0;
+    }
+} /*buildings클래스에 대한 에니메이션*/
+
+@keyframes scroll5 {
+    0% {
+        top: 3620px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 3560px;
+        opacity: 1;
+    }
+} /*uvu클래스에 대한 에니메이션*/
+
+@keyframes scrollback5 {
+    0% {
+        top: 3560px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3620px;
+        opacity: 0;
+    }
+} /*uvu클래스에 대한 에니메이션*/
+
+@keyframes scroll6 {
+    0% {
+        top: 3620px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 3588px;
+        opacity: 1;
+    }
+} /*uvu클래스에 대한 에니메이션*/
+
+@keyframes scrollback6 {
+    0% {
+        top: 3588px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3620px;
+        opacity: 0;
+    }
+} /*UVU_Classroom_Building .logo 클래스에 대한 애니메이션*/
+
+@keyframes scroll7 {
+    0% {
+        top: 3620px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 3560px;
+        opacity: 1;
+    }
+} /*UVU_Classroom_Building p 클래스에 대한 애니메이션*/
+
+@keyframes scrollback7 {
+    0% {
+        top: 3560px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3620px;
+        opacity: 0;
+    }
+} /*UVU_Classroom_Building p 클래스에 대한 애니메이션*/
+
+@keyframes scroll8 {
+    0% {
+        top: 3620px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 3555px;
+        opacity: 1;
+    }
+} /*thomas 클래스에 대한 애니메이션*/
+
+@keyframes scrollback8 {
+    0% {
+        top: 3555px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3620px;
+        opacity: 0;
+    }
+} /*thomas logo_background2 클래스에 대한 애니메이션*/
+
+@keyframes scroll9 {
+    0% {
+        top: 3620px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 3583px;
+        opacity: 1;
+    }
+} /*logo2 logo_background2 클래스에 대한 애니메이션*/
+
+@keyframes scrollback9 {
+    0% {
+        top: 3583px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 3620px;
+        opacity: 0;
+    }
+} /*logo2 클래스에 대한 애니메이션*/
+
+@keyframes scroll10 {
+    0% {
+        top: 4290px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 4240px;
+        opacity: 1;
+    }
+} /*usu , logo_background3 클래스에 대한 애니메이션*/
+
+@keyframes scrollback10 {
+    0% {
+        top: 4240px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 4290px;
+        opacity: 0;
+    }
+} /*usu logo_background3 클래스에 대한 애니메이션*/
+
+@keyframes scroll11 {
+    0% {
+        top: 4290px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 4268px;
+        opacity: 1;
+    }
+} /*logo3 클래스에 대한 애니메이션*/
+
+@keyframes scrollback11 {
+    0% {
+        top: 4268px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 4290px;
+        opacity: 0;
+    }
+} /*logo3 클래스에 대한 애니메이션*/
+
+@keyframes numberscroll {
+    0% {
+        left: 1100px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 1000px;
+        opacity: 1;
+    }
+} /*num45 클래스에 대한 애니메이션*/
+
+@keyframes numberscrollback {
+    0% {
+        left: 1000px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 1100px;
+        opacity: 0;
+    }
+} /*num45 클래스에 대한 애니메이션*/
+
+@keyframes uvu2 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 120px;
+        opacity: 1;
+    }
+}
+
+@keyframes uvu2back {
+    0% {
+        left: 120px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes logobackground4 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 140px;
+        opacity: 1;
+    }
+}
+
+@keyframes logobackground4back {
+    0% {
+        left: 140px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes logo4 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 150px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo4back {
+    0% {
+        left: 150px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes usu2 {
+    0% {
+        top:5000px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 4950px;
+        opacity: 1;
+    }
+}
+
+@keyframes usu2back {
+    0% {
+        top: 4950px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 5000px;
+        opacity: 0;
+    }
+}
+
+@keyframes logo_background5 {
+    0% {
+        top:5000px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 4950px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo_background5back {
+    0% {
+        top: 4950px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 5000px;
+        opacity: 0;
+    }
+}
+
+
+@keyframes logo5 {
+    0% {
+        top: 5000px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 4978px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo5back {
+    0% {
+        top: 4978px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 5000px;
+        opacity: 0;
+    }
+}
+
+@keyframes sugar {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 120px;
+        opacity: 1;
+    }
+}
+
+@keyframes sugarback {
+    0% {
+        left: 120px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes logo_background6 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 140px;
+        opacity: 1;
+    }
+}
+
+
+@keyframes logo_background6back {
+    0% {
+        left: 140px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes logo6 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+    
+    100% {
+        left: 150px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo6back {
+    0% {
+        left: 150px;
+        opacity: 1;
+    }
+    
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes uta {
+    0% {
+        top: 5730px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 5670px;
+        opacity: 1;
+    }
+} /*uta , logo_background7 에니메이션 */
+
+@keyframes utaback {
+    0% {
+        top: 5680px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 5730px;
+        opacity: 0;
+    }
+} /*uta , logo_background7 에니메이션 */
+
+@keyframes logo7 {
+    0% {
+        top: 5748px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 5698px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo7back {
+    0% {
+        top: 5698px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 5748px;
+        opacity: 0;
+    }
+}
+
+@keyframes unified {
+    0% {
+        left: 0;
+        opacity: 0;
+    }
+
+    100% {
+        left: 120px;
+        opacity: 1;
+    }
+}
+
+@keyframes unifiedback {
+    0% {
+        left: 120;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes logo_background8 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 140px;
+        opacity: 1;
+    }
+}
+
+
+@keyframes logo_background8back {
+    0% {
+        left: 140px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes logo8 {
+    0% {
+        left: 0px;
+        opacity: 0;
+    }
+    
+    100% {
+        left: 150px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo8back {
+    0% {
+        left: 150px;
+        opacity: 1;
+    }
+    
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes sutton {
+    0% {
+        top: 6420px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 6370px;
+        opacity: 1;
+    }
+} /* sutton,logo_background9 애니메이션*/
+
+@keyframes suttonback {
+    0% {
+        top: 6370px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 6420px;
+        opacity: 0;
+    }
+} /* sutton,logo_background9 애니메이션*/
+
+@keyframes logo9 {
+    0% {
+        top: 6420px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 6398px;
+        opacity: 1;
+    }
+} 
+
+@keyframes logo9back {
+    0% {
+        top: 6398px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 6420px;
+        opacity: 0;
+    }
+} 
+
+@keyframes k {
+    0%{
+        left: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 120px;
+        opacity: 1;
+    }
+} /* k ,line_title 애니메이션*/
+
+@keyframes kback {
+    0%{
+        left: 120px;
+        opacity: 1;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes s_line {
+    0% {
+        top: 7220px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 7170px;
+        opacity: 1;
+    } /*s_line, logo_background10 애니메이션*/
+}
+
+@keyframes s_lineback {
+    0% {
+        top: 7170px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 7220px;
+        opacity: 0;
+    } /*s_line, logo_background10 애니메이션*/
+}
+
+@keyframes logo10 {
+    0% {
+        top: 7247px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 7197px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo10back {
+    0% {
+        top: 7197px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 7247px;
+        opacity: 0;
+    }
+}

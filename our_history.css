@@ -1,0 +1,483 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+  }
+  
+  /** Thin */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+  }
+  
+  /** Regular */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+  
+  /** Medium */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+  }
+  
+  /** Semi Bold */
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+  }
+  
+  /** Bold */ 
+  @font-face {
+    font-family: "SF Pro Text";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 2600px;
+    overflow-x: hidden;
+}
+
+
+.Header img {
+    position: relative;
+    left: 120px;
+    width: 83.244px;
+    height: 60px;
+    display: flex;
+    padding: 56px 12px 16px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    width: 59.244px;
+    height: 32px;
+    color: #fff;
+}
+
+.Header li {
+    list-style: none;
+}
+
+.Header h1 {
+    position: absolute;
+    top: 0px;
+    left: 911px;
+    font-size: 20px;
+}
+
+.Header li a {
+    position: relative;
+    top: -50px;
+    left: 880px;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+.Header .Header_line {
+    position: absolute;
+    top: 112px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+/*who_we_are*/
+.who_we_are .page_name a {
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    color: #000;
+    text-align: center;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.who_we_are .page_name img {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
+
+.who_we_are .page_name p {
+    position: absolute;
+    top: 135px;
+    left: 230px;
+}
+
+.who_we_are .title_desc h1 {
+    position: absolute;
+    top: 150px;
+    left: 120px;   
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.96px;
+}
+
+.who_we_are .title_desc .first {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+}
+
+.who_we_are .title_desc p {
+    position: absolute;
+    top: 230px;
+    left: 950px;
+    width: 468px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+}
+
+.who_we_are .title_desc h2 {
+    position: absolute;
+    top: 530px;
+    left: 950px;
+    width: 468px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+    letter-spacing: -0.8px;
+}
+
+.who_we_are .hero_btn label {
+    position: absolute;
+    top: 674px;
+    left: 950px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.who_we_are .hero_btn .arrow {
+    position: absolute;
+    top: 674px;
+    left: 1099px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.who_we_are .arrow img {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+/* our history */
+
+.our_history .title_desc {
+    position: absolute;
+    top: 1000px;
+    left: 120px;
+}
+
+.our_history .title_desc h1 {
+    position: absolute;
+    top: -120px;
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+    font-family: "SF Pro Text";
+}
+
+.our_history .title_desc p {
+    width: 1272px;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    font-family: "SF Pro Text";
+}
+
+.button_divider .tittle_button {
+    position: absolute;
+    top: 1900px;
+    left: 120px;
+}
+
+.button_divider .tittle_button h1 {
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+.button_divider .hero_btn2 label {
+    position: absolute;
+    top: 50px;
+    left: 1500px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.button_divider .hero_btn2 .arrow {
+    position: absolute;
+    top: 50px;
+    left: 1649px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.button_divider .arrow img {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.button_divider .divider {
+    position: absolute;
+    top: 120px;
+    left: -110px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.footer h1 {
+    position: absolute;
+    top: 2050px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px; /* 150% */
+    letter-spacing: -0.96px;
+}
+
+.footer .footer_btn label {
+    position: absolute;
+    top: 2250px;
+    left: 120px;
+    width: 145px;
+    height: 45px;
+    color: #fff;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:45px; /* 125% */
+    text-align: center;
+    border: 2px solid #222;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.footer .footer_btn .footer_arrow {
+    position: absolute;
+    top: 2250px;
+    left: 265px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #222;
+    cursor: pointer;
+ }
+
+.footer .footer_btn img {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer .footer_menu ul li {
+    list-style: none;
+}
+
+.footer .footer_menu a {
+    position: relative;
+    top: 2300px;
+    left: 50px;
+    text-decoration: none;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.footer .footer_address ul li {
+    list-style: none;
+}
+
+.footer .footer_address a {
+    position: relative;
+    display: block;
+    top: 1920px;
+    left: 700px;
+    text-decoration: none;
+    width: 199px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer .footer_address p {
+    position: relative;
+    top: 1955px;
+    left: 735px;
+}
+
+.footer .footer_address2 ul li {
+    list-style: none;
+}
+
+.footer .footer_address2 a {
+    position: relative;
+    display: block;
+    top: 1650px;
+    left: 1000px;
+    text-decoration: none;
+    width: 199px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer .footer_address2 p {
+    position: relative;
+    top: 1690px;
+    left: 1035px;
+}
+
+.footer .footer_address3 ul li {
+    list-style: none;
+}
+
+.footer .footer_address3 a {
+    position: relative;
+    display: block;
+    top: 1380px;
+    left: 1300px;
+    text-decoration: none;
+    width: 199px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer .footer_address3 p {
+    position: relative;
+    top: 1425px;
+    left: 1335px;
+}
+
+.footer .footer_sns ul li {
+    list-style: none;
+}
+
+.footer .footer_sns img {
+    position: relative;
+    top: 1450px;
+    left: 1500px;
+    margin: 20px;
+}
+
+.footer .footer_line2 {
+    position: absolute;
+    top: 2520px;
+    left: 10px;
+    width: 1840px;
+    height: 1px;
+    background-color: #000;
+}
+
+.footer .copywirting p {
+    position: absolute;
+    top: 2550px;
+    left: 120px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+.footer .copywirting span {
+    position: absolute;
+    top: 2550px;
+    left: 1500px;
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
