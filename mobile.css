@@ -44,15 +44,15 @@
     .hero_btn label {
         position: absolute;
         top: 484px;
-        left: 130px;
-        width: 100px;
-        height: 35px;
+        left: 135px;
+        width: 95px;
+        height: 30px;
         color: #fff;
         font-family: "SF Pro Text";
-        font-size: 13px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 600;
-        line-height:35px; /* 125% */
+        line-height:30px; /* 125% */
         text-align: center;
         border: 2px solid #222;
         background-color: #000;
@@ -63,8 +63,8 @@
         position: absolute;
         top: 484px;
         left: 234px;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         border: 2px solid #222;
         cursor: pointer;
      }
@@ -72,7 +72,7 @@
     #page-1 .arrow img {
         position: absolute;
         top: 5px;
-        left: 7px;
+        left: 6px;
         width: 20px;
         height: 20px;
     }
@@ -114,11 +114,10 @@
         color: #000;
         text-align: center;
         font-family: "SF Pro Text";
-        font-size: 20px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 600;
-        line-height: 25px; /* 133.333% */
-        letter-spacing: -0.96px;
+        line-height: 23px; /* 133.333% */
         opacity: 1;
     }
     
@@ -153,7 +152,7 @@
         color: #000;
         text-align: center;
         font-family: "SF Pro Text";
-        font-size: 15px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: 25px; /* 133.333% */
@@ -210,13 +209,12 @@
 
     #page-2 .about_desc h1 {
         position: absolute;
-        top: 970px;
-        left: -75px;
-        width: 557px;
+        top: 950px;
+        left: -80px;
         color: #000;
         text-align: center;
         font-family: "SF Pro Text";
-        font-size: 15px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 22px; /* 133.333% */
@@ -226,15 +224,15 @@
     #page-2 .about_btn a {
         position: absolute;
         top: 1086px;
-        left: 120px;
-        width: 100px;
-        height: 35px;
+        left: 131px;
+        width: 95px;
+        height: 30px;
         color: #fff;
         font-family: "SF Pro Text";
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 600;
-        line-height:35px; /* 125% */
+        line-height:30px; /* 125% */
         text-align: center;
         border: 2px solid #222;
         background-color: #000;
@@ -245,16 +243,16 @@
     #page-2 .about_btn .arrow {
         position: absolute;
         top: 1086px;
-        left: 222px;
-        width: 35px;
-        height: 35px;
+        left: 230px;
+        width: 30px;
+        height: 30px;
         border: 2px solid #222;
      }
     
      #page-2 .about_btn .arrow img {
         position: absolute;
-        top: 7px;
-        left: 7px;
+        top: 6px;
+        left: 6px;
         width: 20px;
         height: 20px;
     }
@@ -397,12 +395,11 @@
     
     #page-3 .item_menu h1 {
         position: absolute;
-        top: 2150px;
-        left: -80px;
-        width: 557px;
+        top: 2135px;
+        left: -82px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 15px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 22px; 
@@ -412,15 +409,15 @@
     #page-3 .item_btn label {
         position: absolute;
         top: 2256px;
-        left: 115px;
-        width: 120px;
-        height: 35px;
+        left: 140px;
+        width: 95px;
+        height: 30px;
         color: #fff;
         font-family: "SF Pro Text";
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 600;
-        line-height:35px; /* 125% */
+        line-height:30px; /* 125% */
         text-align: center;
         border: 2px solid #222;
         background-color: #000;
@@ -431,8 +428,8 @@
         position: absolute;
         top: 2256px;
         left: 237px;
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         border: 2px solid #222;
         cursor: pointer;
      }
