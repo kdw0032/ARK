@@ -114,7 +114,7 @@
         color: #000;
         text-align: center;
         font-family: "SF Pro Text";
-        font-size: 17px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 600;
         line-height: 23px; /* 133.333% */
@@ -214,10 +214,10 @@
         color: #000;
         text-align: center;
         font-family: "SF Pro Text";
-        font-size: 12px;
+        font-size: 9px;
         font-style: normal;
         font-weight: 400;
-        line-height: 22px; /* 133.333% */
+        line-height: 15px; /* 133.333% */
     }
     
     
@@ -399,10 +399,10 @@
         left: -82px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 13px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
-        line-height: 22px; 
+        line-height: 15px; 
         text-align: center;
     }
     
