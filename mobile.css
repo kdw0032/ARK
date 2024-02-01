@@ -1,0 +1,1130 @@
+/*Iphone12, Iphone12 pro 사이즈*/
+
+@media (max-width:390px) {
+    .Header img {
+        position: relative;
+        left: 10px;
+        width: 73.244px;
+        height: 50px;
+        display: flex;
+        padding: 56px 12px 16px 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        width: 59.244px;
+        height: 32px;
+        color: #fff;
+    }
+
+    .Header .Header_line {
+        position: absolute;
+        top: 112px;
+        left: 5px;
+        width: 380px;
+        height: 1px;
+        background-color: #000;
+    }
+}
+
+@media (max-width:1920px) {
+    .m_image {
+        display: none;
+    }
+}
+
+@media (max-width:390px) {
+    #page-1 .image {
+        display: none;
+    }
+}
+   
+
+@media (max-width:390px) {
+    .hero_btn label {
+        position: absolute;
+        top: 484px;
+        left: 130px;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:35px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    #page-1 .hero_btn .arrow {
+        position: absolute;
+        top: 484px;
+        left: 234px;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #222;
+        cursor: pointer;
+     }
+    
+    #page-1 .arrow img {
+        position: absolute;
+        top: 5px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .m_image {
+        position: relative;
+        top: 10px;
+        left: 40px;
+        display: block;
+    }
+
+    #page-1 h1 {
+        position: absolute;
+        top: 120px;
+        left: 150px;
+    }
+
+    #page-1 h2 {
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    #page-1 .hero_line {
+        position: absolute;
+        top: 540px;
+        left: 5px;
+        width: 380px;
+        height: 1px;
+        background-color: #000;
+    }
+    
+    #page-2 .first_scroll {
+        position: absolute;
+        top: 555px;
+        left: -270px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px; /* 133.333% */
+        letter-spacing: -0.96px;
+        opacity: 1;
+    }
+    
+    @keyframes scroll1 {
+        0% {
+            top: 575px;
+            opacity: 1;
+        }
+    
+        100% {
+            top: 525px;
+            opacity: 1;
+        }
+    } /*first_scrooll클래스에 대한 에니메이션*/
+        
+    @keyframes scrollback {
+        0% {
+            top: 525px;
+            opacity: 1;
+        }
+    
+        100% {
+            top: 575px;
+            opacity: 1;
+        }
+    } /*first_scrooll클래스에 대한 에니메이션*/
+        
+    #page-2 h2 {
+        position: absolute;
+        top: 625px;
+        left: -20px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 133.333% */
+        letter-spacing: -0.96px;
+        opacity: 1;
+    }
+
+    #page-2 .about_container ul li {
+        list-style: none;
+    }
+    
+
+    #page-2 .about_container p {
+        position: relative;
+        display: inline-flex;
+        top: 250px;
+        left:-15px;
+        width: 110.33334px;
+        height: 130px;
+        margin: 0px;
+        background-color: rgba(211, 211, 211, 0.116);
+    }
+    
+    #page-2 ul li {
+        list-style: none;
+    }
+    
+    #page-2 .b1 {
+        position: relative;
+        display: inline-block;
+        top: 30px;
+        left: -10px;
+        width: 100px;
+        height: 200px;
+    }
+
+    #page-2 .b2 {
+        position: relative;
+        display: inline-block;
+        top: -175px;
+        left: 100px;
+        width: 115px;
+        height: 200px;
+    }
+
+    #page-2 .b3 {
+        position: relative;
+        display: inline-block;
+        top: -380px;
+        left: 220px;
+        width: 115px;
+        height: 200px;
+    }
+
+    #page-2 .about_desc h1 {
+        position: absolute;
+        top: 970px;
+        left: -75px;
+        width: 557px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 133.333% */
+    }
+    
+    
+    #page-2 .about_btn a {
+        position: absolute;
+        top: 1086px;
+        left: 120px;
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:35px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    #page-2 .about_btn .arrow {
+        position: absolute;
+        top: 1086px;
+        left: 222px;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #222;
+     }
+    
+     #page-2 .about_btn .arrow img {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #page-3 h1 {
+        position: absolute;
+        top: 1150px;
+        left: 20px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px; /* 150% */
+        letter-spacing: -0.96px;
+    }
+    
+    
+    #page-3 .service_btn label {
+        position: absolute;
+        top: 1182px;
+        left: 250px;
+        width: 100px;
+        height: 30px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:30px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    #page-3 .service_btn .arrow {
+        position: absolute;
+        top: 1182px;
+        left: 350px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #222;
+        cursor: pointer;
+     }
+    
+     #page-3 .service_btn .arrow img {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #page-3 .service_line  {
+        position: absolute;
+        top: 1230px;
+        left: 5px;
+        width: 380px;
+        height: 1px;
+        background-color: #000;
+    }
+    
+    #page-3 .service_num img {
+        position: absolute;
+        top: 1260px;
+        left: 90px;
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+    }
+
+    @keyframes scroll2 {
+        0% {
+            top:1290px;
+            opacity: 1;
+        }
+    
+        100% {
+            top: 1260px;
+            opacity: 1;
+        }
+    } /*numbers클래스에 대한 에니메이션*/
+    
+    @keyframes scrollback2 {
+        0% {
+            top:2500px;
+            opacity: 1;
+        }
+    
+        100% {
+            top: 3206px;
+            opacity: 0;
+        }    
+    } /*numbers클래스에 대한 에니메이션*/
+    
+    #page-3 .service_num h1 {
+        position: absolute;
+        top: 1410px;
+        left: -50px;
+        width: 477px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; /* 114.286% */
+        letter-spacing: -1.68px;
+        opacity: 1;
+    }
+    
+    #page-3 .item_menu ul li {
+        list-style: none;
+    }
+    
+    #page-3 .item_menu p {
+        position: relative;
+        display: inline-block;
+        top: 250px;
+        left: -20px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 5px;
+        letter-spacing: -0.48px;
+    }
+    
+    #page-3 .item_menu img {
+        position: absolute;
+        top: 1680px;
+        left: 45px;
+        width: 300px;
+        height: 450px;
+        opacity: 1;
+    }
+    
+    #page-3 .item_menu h1 {
+        position: absolute;
+        top: 2150px;
+        left: -80px;
+        width: 557px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; 
+        text-align: center;
+    }
+    
+    #page-3 .item_btn label {
+        position: absolute;
+        top: 2256px;
+        left: 115px;
+        width: 120px;
+        height: 35px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:35px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    #page-3 .item_btn .item_arrow {
+        position: absolute;
+        top: 2256px;
+        left: 237px;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #222;
+        cursor: pointer;
+     }
+    
+     #page-3 .item_btn .item_arrow img {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+    }
+
+    #page-4 h1 {
+        position: absolute;
+        top: 2300px;
+        left: 10px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px; /* 150% */
+        letter-spacing: -0.96px;
+    }
+    
+    #page-4 .Recent_btn label {
+        position: absolute;
+        top: 2332px;
+        left: 236px;
+        width: 110px;
+        height: 30px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:33px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    #page-4 .Recent_btn .Recent_arrow {
+        position: absolute;
+        top: 2332px;
+        left: 350px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #222;
+        cursor: pointer;
+     }
+    
+     #page-4 .Recent_btn .Recent_arrow img {
+        position: absolute;
+        top: 6px;
+        left: 7px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #page-4 .Recent_line  {
+        position: absolute;
+        top: 2380px;
+        left: 5px;
+        width: 380px;
+        height: 1px;
+        background-color: #000;
+    }
+    
+    #page-4 .UVU_Classroom_Building .uvu {
+        position: absolute;
+        top: 2400px;
+        left: 5px;
+        width: 230px;
+        height: 187px;
+        opacity: 1;
+    }
+    
+    #page-4 .UVU_Classroom_Building .logo_background {
+        position: absolute;
+        top: 2390px;
+        left: 10px;
+        width: 30.433px;
+        height: 28px;
+        background-color: #000;
+        opacity: 1;
+    }
+    
+    #page-4 .UVU_Classroom_Building .logo {
+        position: absolute;
+        top: 2415px;
+        left: 15px;
+        width: 22px;
+        height: 11px;
+        opacity: 1;
+    }
+    
+    #page-4 .UVU_Classroom_Building h1 {
+        position: absolute;
+        top: 2575px;
+        left: 5px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .UVU_Classroom_Building h2 {
+        position: absolute;
+        top: 2585px;
+        left: 5px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .Monson_Center .thomas {
+        position: absolute;
+        top: 2397px;
+        left: 255px;
+        width: 120px;
+        height: 190px;
+        opacity: 1;
+    }
+    
+    #page-4 .Monson_Center .logo_background2 {
+        position: absolute;
+        top: 2390px;
+        left: 260px;
+        width: 20.433px;
+        height: 18px;
+        background-color: #000;
+        opacity: 1;
+    }
+    
+    #page-4 .Monson_Center .logo2 {
+        position: absolute;
+        top: 2410px;
+        left: 263px;
+        width: 15px;
+        height: 8px;
+        opacity: 1;
+    }
+    
+    #page-4 .Monson_Center h1 {
+        position: absolute;
+        top: 2575px;
+        left: 255px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    
+    #page-4 .Monson_Center h2 {
+        position: absolute;
+        top: 2585px;
+        left: 255px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+    
+    }
+    
+    #page-4 .USU_Swaner .usu {
+        position: absolute;
+        top: 4240px;
+        left: 120px;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_Swaner .logo_background3 {
+        position: absolute;
+        top: 4240px;
+        left: 140px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_Swaner .logo3 {
+        position: absolute;
+        top: 4268px;
+        left: 150px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_Swaner h1 {
+        position: absolute;
+        top: 4800px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .USU_Swaner h2 {
+        position: absolute;
+        top: 4825px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .USU_Swaner .num45 {
+        position: absolute;
+        top: 4295px;
+        left: 1000px;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_Swaner .usu_desc {
+        position: absolute;
+        top: 4620px;
+        left: 1000px;
+        width: 557px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px; /* 114.286% */
+        letter-spacing: -1.68px;
+        opacity: 0;
+    }
+    
+    #page-4 .UVU_Fulton .uvu2 {
+        position: absolute;
+        top: 4950px;
+        left: 120px;
+        opacity: 0;
+    }
+    
+    #page-4 .UVU_Fulton .logo_background4 {
+        position: absolute;
+        top: 4950px;
+        left: 140px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .UVU_Fulton .logo4 {
+        position: absolute;
+        top: 4978px;
+        left: 150px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .UVU_Fulton h1 {
+        position: absolute;
+        top: 5310px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .UVU_Fulton h2 {
+        position: absolute;
+        top: 5335px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .USU_College .usu2 {
+        position: absolute;
+        top: 4950px;
+        right: 255px;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_College .logo_background5 {
+        position: absolute;
+        top: 4950px;
+        right: 1055px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_College .logo5 {
+        position: absolute;
+        top: 4978px;
+        right: 1060px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .USU_College h1 {
+        position: absolute;
+        top: 5550px;
+        left: 720px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .USU_College h2 {
+        position: absolute;
+        top: 5575px;
+        left: 720px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .sugar_house .sugar {
+        position: absolute;
+        top: 5670px;
+        left: 120px;
+        opacity: 0;
+    }
+    
+    #page-4 .sugar_house .logo_background6 {
+        position: absolute;
+        top: 5680px;
+        left: 140px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .sugar_house .logo6 {
+        position: absolute;
+        top: 5708px;
+        left: 150px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .sugar_house h1 {
+        position: absolute;
+        top: 6230px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .sugar_house h2 {
+        position: absolute;
+        top: 6255px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .trax .uta {
+        position: absolute;
+        top: 5670px;
+        left: 1000px;
+        opacity: 0;
+    }
+    
+    #page-4 .trax .logo_background7 {
+        position: absolute;
+        top: 5670px;
+        left: 1020px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .trax .logo7 {
+        position: absolute;
+        top: 5698px;
+        left: 1030px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .trax h1 {
+        position: absolute;
+        top: 6230px;
+        left: 1000px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .trax h2 {
+        position: absolute;
+        top: 6255px;
+        left: 1000px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .module .unified {
+        position: absolute;
+        top: 6370px;
+        left: 120px;
+        opacity: 0;
+    }
+    
+    #page-4 .module .logo_background8 {
+        position: absolute;
+        top: 6380px;
+        left: 140px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .module .logo8 {
+        position: absolute;
+        top: 6408px;
+        left: 150px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .module h1 {
+        position: absolute;
+        top: 6965px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+    }
+    
+    #page-4 .module h2 {
+        position: absolute;
+        top: 6990px;
+        left: 120px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .Geology .sutton {
+        position: absolute;
+        top: 6370px;
+        left: 1200px;
+        opacity: 0;
+    }
+    
+    #page-4 .Geology .logo_background9 {
+        position: absolute;
+        top: 6370px;
+        left: 1220px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .Geology .logo9 {
+        position: absolute;
+        top: 6398px;
+        left: 1230px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .Geology h1 {
+        position: absolute;
+        top: 6730px;
+        left: 1200px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+        text-align: start;
+    }
+    
+    #page-4 .Geology h2 {
+        position: absolute;
+        top: 6780px;
+        left: 1200px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .s-line .k {
+        position: absolute;
+        top: 7200px;
+        left: 120px;
+        opacity: 0;
+    }
+    
+    #page-4 .s-line .line_title {
+        position: absolute;
+        top: 7530px;
+        left: 120px;
+        width: 521px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 64px; /* 114.286% */
+        letter-spacing: -1.68px;
+        opacity: 0;
+    }
+    
+    #page-4 .s-line .s_line {
+        position: absolute;
+        top: 7170px;
+        left: 1000px;
+        opacity: 0;
+    }
+    
+    #page-4 .s-line .logo_background10 {
+        position: absolute;
+        top: 7170px;
+        left: 1020px;
+        width: 60.433px;
+        height: 48px;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    #page-4 .s-line .logo10 {
+        position: absolute;
+        top: 7197px;
+        left: 1028px;
+        width: 44.433px;
+        height: 24px;
+        opacity: 0;
+    }
+    
+    #page-4 .s-line h2 {
+        position: absolute;
+        top: 7730px;
+        left: 1000px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.4px;
+        text-align: start;
+    }
+    
+    #page-4 .s-line h3 {
+        position: absolute;
+        top: 7750px;
+        left: 1000px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.36px;
+    }
+    
+    #page-4 .Recent_btn2 h1 {
+        position: absolute;
+        top: 7870px;
+        left: 795px;
+        color: #000;
+        text-align: center;
+        font-family: "SF Pro Text";
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px; /* 150% */
+        letter-spacing: -0.96px;
+    }
+    
+    #page-4 .Recent_btn2 label {
+        position: absolute;
+        top: 8022px;
+        left: 875px;
+        width: 145px;
+        height: 45px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:45px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    #page-4 .Recent_btn2 .Recent_arrow2 {
+        position: absolute;
+        top: 8022px;
+        left: 1020px;
+        width: 45px;
+        height: 45px;
+        border: 2px solid #222;
+        cursor: pointer;
+     }
+    
+     #page-4 .Recent_btn2 .Recent_arrow2 img {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
+
+
+

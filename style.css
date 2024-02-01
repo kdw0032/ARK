@@ -45,8 +45,8 @@ body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
+    touch-action: pan-y; /* 수직 스크롤 허용, 수평 스크롤 비허용 */
 }
-
 
 .Header img {
     position: relative;
@@ -66,13 +66,6 @@ body {
 
 .Header li {
     list-style: none;
-}
-
-.Header h1 {
-    position: absolute;
-    top: 0px;
-    left: 911px;
-    font-size: 20px;
 }
 
 .Header li a {
@@ -96,19 +89,10 @@ body {
     background-color: #000;
 }
 
-#page-1  {
-    position: absolute;
-    top: 340px;
-    left: 350px;
-    width: 1271px;
-    height: 570px;
-    background-color: rgba(211, 211, 211, 0.048);
-}
-
 #page-1 h1 {
     position: absolute;
-    top: -180px;
-    left: 500px;
+    top: 150px;
+    left: 830px;
     color: #000;
     font-family: "SF Pro Text";
     font-size: 18px;
@@ -118,8 +102,8 @@ body {
 
 #page-1 h2 {
     position: absolute;
-    top: -250px;
-    left: -10px;
+    top: 100px;
+    left: 300px;
     color: #000;
     font-size: 104px;
     font-style: normal;
@@ -131,15 +115,15 @@ body {
 
 #page-1 .image {
     position: absolute;
-    top: -70px;
-    left: 0px;
+    top: 250px;
+    left: 350px;
     z-index: 1;
 }
 
 .hero_btn label {
     position: absolute;
-    top: -154px;
-    left: 1000px;
+    top: 154px;
+    left: 1350px;
     width: 145px;
     height: 45px;
     color: #fff;
@@ -156,8 +140,8 @@ body {
 
 #page-1 .hero_btn .arrow {
     position: absolute;
-    top: -154px;
-    left: 1148px;
+    top: 154px;
+    left: 1498px;
     width: 45px;
     height: 45px;
     border: 2px solid #222;
@@ -179,8 +163,8 @@ body {
 
 .hero_sns img {
     position: relative;
-    left: 950px;
-    top: -100px;
+    top: 80px;
+    left: 1300px;
     margin: 20px;
     cursor: pointer;
     z-index: 2;
@@ -188,8 +172,8 @@ body {
 
 #page-1 .hero_line  {
     position: absolute;
-    top: 700px;
-    left: -330px;
+    top: 980px;
+    left: 10px;
     width: 1840px;
     height: 1px;
     background-color: #000;
@@ -209,7 +193,6 @@ body {
     line-height: 64px; /* 133.333% */
     letter-spacing: -0.96px;
     opacity: 0;
-    
 }
 
 #page-2 h2 {

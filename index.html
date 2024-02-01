@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <title>ARK HOUSE</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="keyframe.css">
+    <link rel="stylesheet" href="mobile.css">
 
 </head>
 <body>
@@ -30,15 +32,19 @@
 
     <div class="container">
         <section id="page-1">
-                <h1>since 1975.</h1>
-                <h2>Architecture.<br>
-                        Planning.<br>
-                            Design.</h2>
-           
+            <h1>since 1975.</h1>
+            <h2>Architecture.<br>
+                    Planning.<br>
+                        Design.</h2>
+
+            <div class="m_image">
+                <img src="./img/Hero Image.png"  alt="피라미드 이미지" width="350" height="250" class="m_hero_img">
+            </div>
 
                 <div class="image">
-                    <img src="./img/Hero Image.png" alt="피라미드 이미지" class="hero_img"></div>
-    
+                    <img src="./img/Hero Image.png" alt="피라미드 이미지" class="hero_img">
+                </div>
+
                     <btn class="hero_btn">
                         <label for="#">Contact Us</label>
                         <div class="arrow">
@@ -76,9 +82,9 @@
                 <div class="about_img">
                     <ul>
                         <li>
-                            <img src="./img/Image1.png" alt="1">
-                                <img src="./img/Image2.png" alt="2">
-                                    <img src="./img/Image.png" alt="3"></li>
+                            <img src="./img/Image1.png" alt="1" class="b1">
+                                <img src="./img/Image2.png" alt="2" class="b2">
+                                    <img src="./img/Image.png" alt="3" class="b3"></li>
                                 </ul>
                             </div>
                             <div class="about_desc">
@@ -463,7 +469,8 @@
             </section>
         </footer>
 
-     <script src="./main.js"> </script>
+     <!-- <script src="./main.js"> </script> -->
+     <script src="./scroll.js"></script>
        
 </body>
 </html>
