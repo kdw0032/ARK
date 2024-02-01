@@ -1,6 +1,10 @@
 /*Iphone12, Iphone12 pro 사이즈*/
-
 @media (max-width:390px) {
+    body {
+        overflow-x: hidden;
+        -webkit-overflow-x: hidden;
+    }
+
     .Header img {
         position: relative;
         left: 10px;
