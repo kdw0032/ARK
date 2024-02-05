@@ -1217,8 +1217,10 @@
         color: #000;
         font-family: "SF Pro Text";
         font-size: 9px;
+        -webkit-font-size: 9px;
         font-style: normal;
         font-weight: 400;
+        -webkit-line-height: 12px;
         line-height: 12px;
     }
     
@@ -1251,8 +1253,11 @@
         top: 2500px;
         left: 30px;
         width: 100px;
+        -webkit-width: 100px;
         height: 28px;
+        -webkit-height: 28px;
         margin: 0px;
+        -webkit-margin: 0px;
         background-color: #cccccc70
     }
     
@@ -1531,7 +1536,9 @@
         top: 2404px;
         left:20px;
         width: 170px;
+        -webkt-width: 170px;
         height: 70px;
+        -webkt-height: 70px;
         background-color: #cccccc70;
         z-index: 1;
     }
@@ -1542,7 +1549,9 @@
         top: 2404px;
         left: 29px;
         width: 170px;
+        -webkt-width: 170px;
         height: 70px;
+        -webkt-height: 70px;
         background-color: #cccccc70;
         z-index: 1;
     }
