@@ -1,8 +1,9 @@
 /*Iphone12, Iphone12 pro 사이즈*/
 @media (max-width:390px) {
     body {
+        margin: 0;
+        padding: 0;
         overflow-x: hidden;
-        -webkit-overflow-x: hidden;
     }
 
     .Header img {
@@ -1249,7 +1250,7 @@
     #page-5 .management_container1 p {
         position: relative;
         display: inline-block;
-        top: 2490px;
+        top: 156em;
         -webkit-top: 2490px;
         left: 30px;
         width: 100px;
@@ -1268,8 +1269,8 @@
     #page-5 .management_container2 p {
         position: relative;
         display: inline-block;
-        top: 2600px;
-        -webkit-top: 2600px;
+        top: 2595px;
+        -webkit-top: 2595px;
         left: 30px;
         width: 100px;
         height: 28px;
@@ -1279,7 +1280,7 @@
     
     #page-5 .management_img .jane img {
         position: absolute;
-        top: 4055px;
+        top: 253em;
         left: 70px;
         width: 100px;
         height: 100px;
@@ -1311,8 +1312,8 @@
     
     #page-5 .management_img .cameron img {
         position: absolute;
-        top: 4055px;
-        left: 176px;
+        top: 253em;
+        left: 11em;
         width: 100px;
         height: 100px;
     }
@@ -1342,8 +1343,8 @@
     
     #page-5 .management_img .brooklyn img {
         position: absolute;
-        top: 4055px;
-        left: 280.5px;
+        top: 253em;
+        left: 278px;
         width: 100px;
         height: 100px;
     }
