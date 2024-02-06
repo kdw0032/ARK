@@ -1213,11 +1213,10 @@
         position: absolute;
         top: 3965px;
         left: 10px;
-        width: 744px;
         color: #000;
         font-family: "SF Pro Text";
         font-size: 9px;
-        -webkit-font-size: 9px;
+        -webkit-font-size: 8px;
         font-style: normal;
         font-weight: 400;
         -webkit-line-height: 12px;
@@ -1251,6 +1250,7 @@
         position: relative;
         display: inline-block;
         top: 2500px;
+        -webkit-top: 2495px;
         left: 30px;
         width: 100px;
         -webkit-width: 100px;
@@ -1269,6 +1269,7 @@
         position: relative;
         display: inline-block;
         top: 2605px;
+        -webkit-top: 2495px;
         left: 30px;
         width: 100px;
         height: 28px;
@@ -1531,9 +1532,9 @@
     }
     
     #page-6 .m_blog_desc_container :first-child {
-        position: relative;
-        display: inline-block;
-        top: 2404px;
+        position: absolute;
+        top: 4634px;
+        -webkit-top: 4634px;
         left:20px;
         width: 170px;
         -webkt-width: 170px;
@@ -1544,10 +1545,10 @@
     }
 
     #page-6 .m_blog_desc_container :last-child {
-        position: relative;
-        display: inline-block;
-        top: 2404px;
-        left: 29px;
+        position: absolute;
+        top: 4634px;
+        -webkit-top: 4634px;
+        left: 205px;
         width: 170px;
         -webkt-width: 170px;
         height: 70px;
