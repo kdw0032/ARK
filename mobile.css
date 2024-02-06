@@ -1215,8 +1215,8 @@
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 9px;
-        -webkit-font-size: 8px;
+        font-size: 7px;
+        -webkit-font-size: 7px;
         font-style: normal;
         font-weight: 400;
         -webkit-line-height: 12px;
@@ -1249,8 +1249,8 @@
     #page-5 .management_container1 p {
         position: relative;
         display: inline-block;
-        top: 2500px;
-        -webkit-top: 2495px;
+        top: 2490px;
+        -webkit-top: 2490px;
         left: 30px;
         width: 100px;
         -webkit-width: 100px;
@@ -1268,8 +1268,8 @@
     #page-5 .management_container2 p {
         position: relative;
         display: inline-block;
-        top: 2605px;
-        -webkit-top: 2495px;
+        top: 2600px;
+        -webkit-top: 2600px;
         left: 30px;
         width: 100px;
         height: 28px;
