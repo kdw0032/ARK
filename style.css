@@ -46,6 +46,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     touch-action: pan-y; /* 수직 스크롤 허용, 수평 스크롤 비허용 */
+    box-sizing: border-box;
 }
 
 .Header img {
@@ -1212,214 +1213,132 @@ body {
     line-height: 120px;
 }
 
-#page-5 .management_container1 ul li {
-    list-style: none;
+#page-5 #management_img1 {
+    position: absolute;
+    display: grid;
+    top: 8550px;
+    left: 500px;
+    gap: 20px 50px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
-#page-5 .management_container1 p {
-    position: relative;
-    display: inline-block;
-    top: 6880px;
-    left: 300px;
+#page-5 #management_container1  {
+    position: absolute;
+    display: grid;
+    top: 8850px;
+    -webkit-top: 2490px;
+    left: 500px;
+    gap: 20px 51px;
+    -webkit-gap: 20px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#page-5 #management_container1 > div {
     width: 327px;
+    -webkit-width: 100px;
     height: 92px;
-    margin: 80px;
-    background-color: #cccccc70
+    -webkit-height: 28px;
+    background-color: #cccccc70;
 }
 
-#page-5 .management_container2 ul li {
-    list-style: none;
+#page-5 #management_text {
+    position: absolute;
+    display: grid;
+    top: 8850px;
+    left: 505px;
+    gap: 20px 170px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
-#page-5 .management_container2 p {
-    position: relative;
-    display: inline-block;
-    top: 7115px;
-    left: 300px;
+#page-5 #management_text > p {
+    color: #000;
+    font-family: "SF Pro Text";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+}
+
+#page-5 #management_text2 {
+    position: absolute;
+    display: grid;
+    top: 8885px;
+    left: 505px;
+    gap: 20px 254px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#page-5 #management_text2 > p {
+    color: #B2B2B2;
+    font-family: "SF Pro Text";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+}
+
+#page-5 #management_img2 {
+    position: absolute;
+    display: grid;
+    top: 8980px;
+    left: 500px;
+    gap: 20px 50px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#page-5 #management_container2  {
+    position: absolute;
+    display: grid;
+    top: 9280px;
+    -webkit-top: 2490px;
+    left: 500px;
+    gap: 20px 50px;
+    -webkit-gap: 20px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#page-5 #management_container2 > div {
     width: 327px;
+    -webkit-width: 100px;
     height: 92px;
-    margin: 80px;
-    background-color: #cccccc70
+    -webkit-height: 28px;
+    background-color: #cccccc70;
 }
 
-#page-5 .management_img .jane img {
+#page-5 #management_text3 {
     position: absolute;
-    top: 8482px;
-    left: 420px;
+    display: grid;
+    top: 9280px;
+    left: 505px;
+    gap: 20px 230px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
-#page-5 .management_img .jane h1 {
-    position: absolute;
-    top: 8795px;
-    left: 430px;
+#page-5 #management_text3 > p {
     color: #000;
     font-family: "SF Pro Text";
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; 
+    letter-spacing: -0.48px;
 }
 
-#page-5 .management_img .jane p {
+#page-5 #management_text4 {
     position: absolute;
-    top: 8830px;
-    left: 430px;
+    display: grid;
+    top: 9315px;
+    left: 505px;
+    gap: 20px 237px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#page-5 #management_text4 > p {
     color: #B2B2B2;
     font-family: "SF Pro Text";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
-}
-
-#page-5 .management_img .cameron img {
-    position: absolute;
-    top: 8482px;
-    left: 913px;
-}
-
-#page-5 .management_img .cameron h1 {
-    position: absolute;
-    top: 8795px;
-    left: 920px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; 
-}
-
-#page-5 .management_img .cameron p {
-    position: absolute;
-    top: 8830px;
-    left: 920px;
-    color: #B2B2B2;
-    font-family: "SF Pro Text";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-#page-5 .management_img .brooklyn img {
-    position: absolute;
-    top: 8482px;
-    left: 1405px;
-}
-
-#page-5 .management_img .brooklyn h1 {
-    position: absolute;
-    top: 8795px;
-    left: 1415px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; 
-}
-
-#page-5 .management_img .brooklyn p {
-    position: absolute;
-    top: 8830px;
-    left: 1415px;
-    color: #B2B2B2;
-    font-family: "SF Pro Text";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-#page-5 .management_img .jacob img {
-    position: absolute;
-    top: 8992px;
-    left: 420px;
-}
-
-#page-5 .management_img .jacob h1 {
-    position: absolute;
-    top: 9300px;
-    left: 430px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; 
-}
-
-#page-5 .management_img .jacob p {
-    position: absolute;
-    top: 9335px;
-    left: 430px;
-    color: #B2B2B2;
-    font-family: "SF Pro Text";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-#page-5 .management_img .jerome img {
-    position: absolute;
-    top: 8992px;
-    left: 913px;
-}
-
-#page-5 .management_img .jerome h1 {
-    position: absolute;
-    top: 9300px;
-    left: 920px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; 
-}
-
-#page-5 .management_img .jerome p {
-    position: absolute;
-    top: 9335px;
-    left: 920px;
-    color: #B2B2B2;
-    font-family: "SF Pro Text";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-#page-5 .management_img .kristin img {
-    position: absolute;
-    top: 8992px;
-    left: 1405px;
-}
-
-#page-5 .management_img .kristin h1 {
-    position: absolute;
-    top: 9300px;
-    left: 1415px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; 
-}
-
-#page-5 .management_img .kristin p {
-    position: absolute;
-    top: 9335px;
-    left: 1415px;
-    color: #B2B2B2;
-    font-family: "SF Pro Text";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+    letter-spacing: -0.48px;
 }
 
 #page-6 h1 {
@@ -1577,7 +1496,7 @@ body {
 #page-6 .blog_desc .blog_desc_container p {
     position: relative;
     display: inline-block;
-    top: 7864px;
+    top: 8324px;
     left: 400px;
     width: 532px;
     height: 168px;
@@ -1701,7 +1620,7 @@ body {
 
 .footer .footer_menu a {
     position: relative;
-    top: 8750px;
+    top: 9150px;
     left: 50px;
     text-decoration: none;
     color: #000;
@@ -1720,7 +1639,7 @@ body {
 .footer .footer_address a {
     position: relative;
     display: block;
-    top: 8330px;
+    top: 8770px;
     left: 700px;
     text-decoration: none;
     width: 199px;
@@ -1735,7 +1654,7 @@ body {
 
 .footer .footer_address p {
     position: relative;
-    top: 8380px;
+    top: 8780px;
     left: 735px;
 }
 
@@ -1746,7 +1665,7 @@ body {
 .footer .footer_address2 a {
     position: relative;
     display: block;
-    top: 8060px;
+    top: 8500px;
     left: 1000px;
     text-decoration: none;
     width: 199px;
@@ -1760,7 +1679,7 @@ body {
 
 .footer .footer_address2 p {
     position: relative;
-    top: 8115px;
+    top: 8515px;
     left: 1035px;
 }
 
@@ -1771,7 +1690,7 @@ body {
 .footer .footer_address3 a {
     position: relative;
     display: block;
-    top: 7795px;
+    top: 8235px;
     left: 1300px;
     text-decoration: none;
     width: 199px;
@@ -1785,7 +1704,7 @@ body {
 
 .footer .footer_address3 p {
     position: relative;
-    top: 7850px;
+    top: 8250px;
     left: 1335px;
 }
 
@@ -1795,14 +1714,14 @@ body {
 
 .footer .footer_sns img {
     position: relative;
-    top: 7900px;
+    top: 8300px;
     left: 1500px;
     margin: 20px;
 }
 
 .footer .footer_line2 {
     position: absolute;
-    top: 11500px;
+    top: 11390px;
     left: 10px;
     width: 1840px;
     height: 1px;
@@ -1811,7 +1730,7 @@ body {
 
 .footer .copywirting p {
     position: absolute;
-    top: 11500px;
+    top: 11400px;
     left: 120px;
     color: #000;
     font-family: "SF Pro Text";
@@ -1823,7 +1742,7 @@ body {
 
 .footer .copywirting span {
     position: absolute;
-    top: 11520px;
+    top: 11420px;
     left: 1500px;
     color: #000;
     font-family: "SF Pro Text";
