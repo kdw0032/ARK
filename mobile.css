@@ -1,1929 +1,347 @@
-/*Iphone12, Iphone12 pro 사이즈*/
-@media (max-width:730px) {
+@media screen and (max-width:600px) {
     body {
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
         overflow-x: hidden;
-        box-sizing:border-box;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
     }
-
     .Header img {
         position: relative;
         left: 10px;
-        width: 73.244px;
-        height: 50px;
-        display: flex;
-        padding: 56px 12px 16px 12px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: #000;
-        width: 59.244px;
-        height: 32px;
-        color: #fff;
+    }
+
+    .Header li {
+        display: none;
     }
 
     .Header .Header_line {
         position: absolute;
-        top: 112px;
-        left: 5px;
-        width: 380px;
+        top: 120px;
+        left: 10px;
+        width: 95%;
         height: 1px;
-        background-color: #000;
     }
-}
 
-@media (max-width:1920px) {
-    .m_image {
-        display: none;
-    }
-}
-
-@media (max-width:730px) {
-    #page-1 .image {
-        display: none;
-    }
-}
-   
-
-@media (max-width:730px) {
-    .hero_btn label {
+    .who_we_are .page_name a {
         position: absolute;
-        top: 484px;
-        left: 135px;
-        width: 95px;
+        top: 150px;
+        left: 20px;
+    }
+
+    .who_we_are .title_desc h1 {
+        position: absolute;
+        top: 150px;
+        left: 10px;
+        font-size: 40px;
+    }
+
+    .who_we_are .title_desc .first {
+        position: absolute;
+        top: 250px;
+        left: 20px;
+        width: 350px;
+        height: 250px;
+    }
+
+    .who_we_are .title_desc p {
+        position: absolute;
+        top: 510px;
+        left: 10px;
+        width: 468px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 140% */
+    }
+
+    .who_we_are .title_desc h2 {
+        position: absolute;
+        top: 720px;
+        left: 20px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .who_we_are .hero_btn label {
+        position: absolute;
+        top: 850px;
+        left: 80px;
+        width: 110px;
         height: 30px;
         color: #fff;
         font-family: "SF Pro Text";
-        font-size: 12px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 600;
-        line-height:30px; /* 125% */
+        line-height:33px; /* 125% */
         text-align: center;
         border: 2px solid #222;
         background-color: #000;
         cursor: pointer;
     }
-    
-    #page-1 .hero_btn .arrow {
+
+    .who_we_are .hero_btn .arrow {
         position: absolute;
-        top: 484px;
+        top: 850px;
+        left: 194px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+     }
+
+     .who_we_are .arrow img {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* our history */
+
+    .our_history .title_desc {  
+        position: absolute;
+        top: 1000px;
+        left: 10px;
+    }
+
+    .our_history .title_desc img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .our_history .title_desc p {
+        font-size: 12px;
+        width: 355px;
+        line-height: 23px;
+    }
+
+    .button_divider .tittle_button {
+        position: absolute;
+        top: 1200px;
+        left: 10px;
+    }
+
+    .button_divider .tittle_button h1 {
+        position: absolute;
+        top: 400px;
+        left: 10px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 35px;
+        width: 255px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .button_divider .hero_btn2 label {
+        position: absolute;
+        top: 500px;
+        left: 100px;
+        width: 110px;
+        height: 30px;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 33px;
+    }
+
+    .button_divider .hero_btn2 .arrow {
+        position: absolute;
+        top: 500px;
+        left: 212px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+     }
+
+     .button_divider .arrow img {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .button_divider .divider {
+        position: absolute;
+        top: 550px;
+        left: 10px;
+        width: 350px;
+        height: 1px;
+        background-color: #000;
+    }
+
+    .footer h1 {
+        position: absolute;
+        top: 1750px;
+        left: 15px;
+        color: #000;
+        font-family: "SF Pro Text";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 45px; /* 150% */
+        letter-spacing: -0.96px;
+    }
+
+    .footer .footer_btn label {
+        position: absolute;
+        top: 1950px;
+        align-items: center;
+        width: 110px;
+        height: 30px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:33px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+
+    .footer .footer_btn .footer_arrow {
+        position: absolute;
+        top: 1950px;
         left: 234px;
         width: 30px;
         height: 30px;
-        border: 2px solid #222;
         cursor: pointer;
-     }
-    
-    #page-1 .arrow img {
+    }
+
+    .footer .footer_btn img {
         position: absolute;
         top: 5px;
-        left: 6px;
+        left: 5px;
         width: 20px;
         height: 20px;
     }
 
-    .m_image {
+    .footer .footer_menu a {
         position: relative;
-        top: 10px;
-        left: 40px;
-        display: block;
-    }
-
-    #page-1 h1 {
-        position: absolute;
-        top: 120px;
-        left: 150px;
-    }
-
-    #page-1 h2 {
-        position: absolute;
-        top: 120px;
-        left: 15px;
-        font-size: 45px;
-        line-height: 50px;
-    }
-
-    #page-1 .hero_line {
-        position: absolute;
-        top: 540px;
-        left: 5px;
-        width: 380px;
-        height: 1px;
-        background-color: #000;
-    }
-    
-    #page-2 .first_scroll {
-        position: absolute;
-        top: 555px;
-        left: -270px;
+        top: 1900px;
+        left: 0px;
+        margin: 10px;
+        text-decoration: none;
         color: #000;
-        text-align: center;
         font-family: "SF Pro Text";
         font-size: 15px;
-        -webkit-font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 23px; /* 133.333% */
-        opacity: 1;
-    }
-    
-    @keyframes scroll1 {
-        0% {
-            top: 575px;
-            opacity: 1;
-        }
-    
-        100% {
-            top: 525px;
-            opacity: 1;
-        }
-    } /*first_scrooll클래스에 대한 에니메이션*/
-        
-    @keyframes scrollback {
-        0% {
-            top: 525px;
-            opacity: 1;
-        }
-    
-        100% {
-            top: 575px;
-            opacity: 1;
-        }
-    } /*first_scrooll클래스에 대한 에니메이션*/
-        
-    #page-2 h2 {
-        position: absolute;
-        top: 625px;
-        left: -20px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; /* 133.333% */
-        letter-spacing: -0.96px;
-        opacity: 1;
-    }
-
-    #page-2 .about_container ul li {
-        list-style: none;
-    }
-    
-
-    #page-2 .about_container p {
-        position: relative;
-        display: inline-flex;
-        top: 250px;
-        left:-15px;
-        width: 110.33334px;
-        height: 130px;
-        margin: 0px;
-        background-color: rgba(211, 211, 211, 0.116);
-    }
-    
-    #page-2 ul li {
-        list-style: none;
-    }
-    
-    #page-2 .b1 {
-        position: relative;
-        display: inline-block;
-        top: 30px;
-        left: -10px;
-        width: 100px;
-        height: 200px;
-    }
-
-    #page-2 .b2 {
-        position: relative;
-        display: inline-block;
-        top: -175px;
-        left: 100px;
-        width: 115px;
-        height: 200px;
-    }
-
-    #page-2 .b3 {
-        position: relative;
-        display: inline-block;
-        top: -380px;
-        left: 220px;
-        width: 115px;
-        height: 200px;
-    }
-
-    #page-2 .about_desc h1 {
-        position: absolute;
-        top: 950px;
-        left: -80px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        -webkit-font-size: 9px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15px; /* 133.333% */
-    }
-    
-    
-    #page-2 .about_btn a {
-        position: absolute;
-        top: 1086px;
-        left: 131px;
-        width: 95px;
-        height: 30px;
-        color: #fff;
-        font-family: "SF Pro Text";
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height:30px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
-    #page-2 .about_btn .arrow {
-        position: absolute;
-        top: 1086px;
-        left: 230px;
-        width: 30px;
-        height: 30px;
-        border: 2px solid #222;
-     }
-    
-     #page-2 .about_btn .arrow img {
-        position: absolute;
-        top: 6px;
-        left: 6px;
-        width: 20px;
-        height: 20px;
-    }
-
-    #page-3 h1 {
-        position: absolute;
-        top: 1150px;
-        left: 20px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 72px; /* 150% */
-        letter-spacing: -0.96px;
-    }
-    
-    
-    #page-3 .service_btn label {
-        position: absolute;
-        top: 1182px;
-        left: 250px;
-        width: 100px;
-        height: 30px;
-        color: #fff;
-        font-family: "SF Pro Text";
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height:30px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        cursor: pointer;
-    }
-    
-    #page-3 .service_btn .arrow {
-        position: absolute;
-        top: 1182px;
-        left: 350px;
-        width: 30px;
-        height: 30px;
-        border: 2px solid #222;
-        cursor: pointer;
-     }
-    
-     #page-3 .service_btn .arrow img {
-        position: absolute;
-        top: 7px;
-        left: 7px;
-        width: 20px;
-        height: 20px;
-    }
-    
-    #page-3 .service_line  {
-        position: absolute;
-        top: 1230px;
-        left: 5px;
-        width: 380px;
-        height: 1px;
-        background-color: #000;
-    }
-    
-    #page-3 .service_num img {
-        position: absolute;
-        top: 1260px;
-        left: 90px;
-        width: 200px;
-        height: 200px;
-        opacity: 1;
-    }
-
-    @keyframes scroll2 {
-        0% {
-            top:1290px;
-            opacity: 1;
-        }
-    
-        100% {
-            top: 1260px;
-            opacity: 1;
-        }
-    } /*numbers클래스에 대한 에니메이션*/
-    
-    @keyframes scrollback2 {
-        0% {
-            top:2500px;
-            opacity: 1;
-        }
-    
-        100% {
-            top: 3206px;
-            opacity: 0;
-        }    
-    } /*numbers클래스에 대한 에니메이션*/
-    
-    #page-3 .service_num h1 {
-        position: absolute;
-        top: 1410px;
-        left: -50px;
-        width: 477px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 54px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 50px; /* 114.286% */
-        letter-spacing: -1.68px;
-        opacity: 1;
-    }
-    
-    #page-3 .item_menu ul li {
-        list-style: none;
-    }
-    
-    #page-3 .item_menu p {
-        position: relative;
-        display: inline-block;
-        top: 250px;
-        left: -20px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        margin: 5px;
-        letter-spacing: -0.48px;
-    }
-    
-    #page-3 .item_menu img {
-        position: absolute;
-        top: 1680px;
-        left: 45px;
-        width: 300px;
-        height: 450px;
-        opacity: 1;
-    }
-    
-    #page-3 .item_menu h1 {
-        position: absolute;
-        top: 2135px;
-        left: -82px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 10px;
-        -webkit-font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15px; 
-        text-align: center;
-    }
-
-    /* 사파리에서만 적용되는 스타일 */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* 추가하려는 스타일 */
-    #page-3 .item_menu h1 {
-        position: absolute;
-        top: 2135px;
-        left: -82px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15px; 
-        text-align: center;
-    }
-  }
-    
-    #page-3 .item_btn label {
-        position: absolute;
-        top: 2236px;
-        left: 130px;
-        width: 95px;
-        height: 30px;
-        color: #fff;
-        font-family: "SF Pro Text";
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height:30px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        cursor: pointer;
-    }
-    
-    #page-3 .item_btn .item_arrow {
-        position: absolute;
-        top: 2236px;
-        left: 229px;
-        width: 30px;
-        height: 30px;
-        border: 2px solid #222;
-        cursor: pointer;
-     }
-    
-     #page-3 .item_btn .item_arrow img {
-        position: absolute;
-        top: 5px;
-        left: 6px;
-        width: 20px;
-        height: 20px;
-    }
-
-    #page-4 h1 {
-        position: absolute;
-        top: 2300px;
-        left: 10px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 72px; /* 150% */
-        letter-spacing: -0.96px;
-    }
-    
-    #page-4 .Recent_btn label {
-        position: absolute;
-        top: 2332px;
-        left: 236px;
-        width: 110px;
-        height: 30px;
-        color: #fff;
-        font-family: "SF Pro Text";
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 600;
-        line-height:33px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        cursor: pointer;
-    }
-    
-    #page-4 .Recent_btn .Recent_arrow {
-        position: absolute;
-        top: 2332px;
-        left: 350px;
-        width: 30px;
-        height: 30px;
-        border: 2px solid #222;
-        cursor: pointer;
-     }
-    
-     #page-4 .Recent_btn .Recent_arrow img {
-        position: absolute;
-        top: 5px;
-        left: 6px;
-        width: 20px;
-        height: 20px;
-    }
-    
-    #page-4 .Recent_line  {
-        position: absolute;
-        top: 2380px;
-        left: 5px;
-        width: 380px;
-        height: 1px;
-        background-color: #000;
-    }
-    
-    #page-4 .UVU_Classroom_Building .uvu {
-        position: absolute;
-        top: 2400px;
-        left: 10px;
-        width: 230px;
-        height: 187px;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Classroom_Building .logo_background {
-        position: absolute;
-        top: 2390px;
-        left: 15px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Classroom_Building .logo {
-        position: absolute;
-        top: 2415px;
-        left: 19px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Classroom_Building h1 {
-        position: absolute;
-        top: 2575px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px; /* 120% */
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .UVU_Classroom_Building h2 {
-        position: absolute;
-        top: 2585px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 120% */
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .Monson_Center .thomas {
-        position: absolute;
-        top: 2397px;
-        left: 255px;
-        width: 120px;
-        height: 190px;
-        opacity: 1;
-    }
-    
-    #page-4 .Monson_Center .logo_background2 {
-        position: absolute;
-        top: 2390px;
-        left: 260px;
-        width: 20.433px;
-        height: 18px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .Monson_Center .logo2 {
-        position: absolute;
-        top: 2410px;
-        left: 263px;
-        width: 15px;
-        height: 8px;
-        opacity: 1;
-    }
-    
-    #page-4 .Monson_Center h1 {
-        position: absolute;
-        top: 2575px;
-        left: 255px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-    }
-    
-    #page-4 .Monson_Center h2 {
-        position: absolute;
-        top: 2585px;
-        left: 255px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-    
-    }
-    
-    #page-4 .USU_Swaner .usu {
-        position: absolute;
-        top: 2630px;
-        left: 10px;
-        width: 190px;
-        height: 187px;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_Swaner .logo_background3 {
-        position: absolute;
-        top: 2620px;
-        left: 15px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_Swaner .logo3 {
-        position: absolute;
-        top: 2645px;
-        left: 20px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_Swaner h1 {
-        position: absolute;
-        top: 2810px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px; /* 120% */
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .USU_Swaner h2 {
-        position: absolute;
-        top: 2820px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px; /* 120% */
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .USU_Swaner .num45 {
-        position: absolute;
-        top: 2650px;
-        left: 220px;
-        width: 150px;
-        height: 100px;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_Swaner .usu_desc {
-        position: absolute;
-        top: 2740px;
-        left: 20px;
-        width: 557px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 20px; /* 114.286% */
-        letter-spacing: -1.68px;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Fulton .uvu2 {
-        position: absolute;
-        top: 2850px;
-        left: 10px;
-        width: 110px;
-        height: 160px;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Fulton .logo_background4 {
-        position: absolute;
-        top: 2840px;
-        left: 15px;
-        width: 20.433px;
-        height: 18px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Fulton .logo4 {
-        position: absolute;
-        top: 2861px;
-        left: 18px;
-        width: 15px;
-        height: 8px;
-        opacity: 1;
-    }
-    
-    #page-4 .UVU_Fulton h1 {
-        position: absolute;
-        top: 3000px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .UVU_Fulton h2 {
-        position: absolute;
-        top: 3010px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .USU_College .usu2 {
-        position: absolute;
-        top: 2850px;
-        right: 5px;
-        width: 250px;
-        height: 180px;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_College .logo_background5 {
-        position: absolute;
-        top: 2840px;
-        right: 220px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_College .logo5 {
-        position: absolute;
-        top: 2864px;
-        right: 224px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .USU_College h1 {
-        position: absolute;
-        top: 3020px;
-        left: 135px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .USU_College h2 {
-        position: absolute;
-        top: 3030px;
-        left: 135px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .sugar_house .sugar {
-        position: absolute;
-        top: 3070px;
-        left: 10px;
-        width: 180px;
-        height: 180px;
-        opacity: 1;
-    }
-    
-    #page-4 .sugar_house .logo_background6 {
-        position: absolute;
-        top: 3060px;
-        left: 15px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .sugar_house .logo6 {
-        position: absolute;
-        top: 3084px;
-        left: 19px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .sugar_house h1 {
-        position: absolute;
-        top: 3240px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .sugar_house h2 {
-        position: absolute;
-        top: 3251px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .trax .uta {
-        position: absolute;
-        top: 3070px;
-        left: 205px;
-        width: 180px;
-        height: 180px;
-        opacity: 1;
-    }
-    
-    #page-4 .trax .logo_background7 {
-        position: absolute;
-        top: 3060px;
-        left: 210px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .trax .logo7 {
-        position: absolute;
-        top: 3084px;
-        left: 213px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .trax h1 {
-        position: absolute;
-        top: 3240px;
-        left: 205px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .trax h2 {
-        position: absolute;
-        top: 3250px;
-        left: 205px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .module .unified {
-        position: absolute;
-        top: 3300px;
-        left: 10px;
-        width: 240px;
-        height: 180px;
-        opacity: 1;
-    }
-    
-    #page-4 .module .logo_background8 {
-        position: absolute;
-        top: 3290px;
-        left: 15px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .module .logo8 {
-        position: absolute;
-        top: 3315px;
-        left: 19px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .module h1 {
-        position: absolute;
-        top: 3470px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-    }
-    
-    #page-4 .module h2 {
-        position: absolute;
-        top: 3480px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .Geology .sutton {
-        position: absolute;
-        top: 3300px;
-        left: 265px;
-        width: 120px;
-        height: 140px;
-        opacity: 1;
-    }
-    
-    #page-4 .Geology .logo_background9 {
-        position: absolute;
-        top: 3290px;
-        left: 270px;
-        width: 20.433px;
-        height: 18px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .Geology .logo9 {
-        position: absolute;
-        top: 3311px;
-        left: 272px;
-        width: 15px;
-        height: 8px;
-        opacity: 1;
-    }
-    
-    #page-4 .Geology h1 {
-        position: absolute;
-        top: 3435px;
-        left: 265px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 10px; /* 120% */
-        letter-spacing: -0.4px;
-        text-align: start;
-    }
-    
-    #page-4 .Geology h2 {
-        position: absolute;
-        top: 3450px;
-        left: 265px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .s-line .k {
-        position: absolute;
-        top: 3550px;
-        left: 30px;
-        width: 150px;
-        height: 100px;
-        opacity: 1;
-    }
-    
-    #page-4 .s-line .line_title {
-        position: absolute;
-        top: 3640px;
-        left: -160px;
-        width: 521px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 20px; /* 114.286% */
-        letter-spacing: -1.68px;
-        opacity: 1;
-    }
-    
-    #page-4 .s-line .s_line {
-        position: absolute;
-        top: 3530px;
-        left: 200px;
-        width: 180px;
-        height: 180px;
-        opacity: 1;
-    }
-    
-    #page-4 .s-line .logo_background10 {
-        position: absolute;
-        top: 3520px;
-        left: 205px;
-        width: 30.433px;
-        height: 28px;
-        background-color: #000;
-        opacity: 1;
-    }
-    
-    #page-4 .s-line .logo10 {
-        position: absolute;
-        top: 3545px;
-        left: 209px;
-        width: 22px;
-        height: 11px;
-        opacity: 1;
-    }
-    
-    #page-4 .s-line h2 {
-        position: absolute;
-        top: 3700px;
-        left: 200px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.4px;
-        text-align: start;
-    }
-    
-    #page-4 .s-line h3 {
-        position: absolute;
-        top: 3710px;
-        left: 200px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.36px;
-    }
-    
-    #page-4 .Recent_btn2 h1 {
-        position: absolute;
-        top: 3740px;
-        left: 120px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 600;
-        letter-spacing: -0.96px;
-    }
-    
-    #page-4 .Recent_btn2 label {
-        position: absolute;
-        top: 3820px;
-        left: 150px;
-        width: 55px;
-        height: 20px;
-        color: #fff;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 600;
-        line-height:20px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        cursor: pointer;
-    }
-    
-    #page-4 .Recent_btn2 .Recent_arrow2 {
-        position: absolute;
-        top: 3820px;
-        left: 205px;
-        width: 25px;
-        height: 20px;
-        border: 2px solid #222;
-        cursor: pointer;
-     }
-    
-     #page-4 .Recent_btn2 .Recent_arrow2 img {
-        position: absolute;
-        top: 2px;
-        left: 5px;
-        width: 15px;
-        height: 15px;
-    }
-
-    #page-5 h1 {
-        position: absolute;
-        top: 3880px;
-        left: 12px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 72px; /* 150% */
-        letter-spacing: -0.96px;
-    }
-    
-    #page-5 .Our_btn label {
-        position: absolute;
-        top: 3910px;
-        left: 230px;
-        width: 110px;
-        height: 30px;
-        color: #fff;
-        font-family: "SF Pro Text";
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 600;
-        line-height:33px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        cursor: pointer;
-    }
-    
-    #page-5 .Our_btn .Our_arrow {
-        position: absolute;
-        top: 3910px;
-        left: 344px;
-        width: 30px;
-        height: 30px;
-        border: 2px solid #222;
-        cursor: pointer;
-     }
-    
-    #page-5 .Our_btn img {
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        width: 20px;
-        height: 20px;
-    }
-    
-    #page-5 .Our_line {
-        position: absolute;
-        top: 3955px;
-        left: 5px;
-        width: 380px;
-        height: 1px;
-        background-color: #000;
-    }
-    
-    #page-5 h2 {
-        position: absolute;
-        top: 3965px;
-        left: 10px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        -webkit-font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-        -webkit-line-height: 12px;
-        line-height: 12px;
-    }
-    
-    #page-5 .management_title ul li {
-        list-style: none;
-    }
-    
-    #page-5 .management_title a {
-        position: relative;
-        display: block;
-        text-decoration: none;
-        top: 2655px;
-        left: -30px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px;
-        line-height: 50px;
-    }
-
-    #page-5 #management_img1 {
-        position: absolute;
-        display: grid;
-        top: 4050px;
-        left: 70px;
-        gap: 20px 5px;
-        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    }
-
-    #page-5 #management_img1 > img {
-        width: 100px;
-        height: 100px;
-    }
- 
-    #page-5 #management_container1  {
-        position: absolute;
-        display: grid;
-        top: 4150px;
-        -webkit-top: 2490px;
-        left: 70px;
-        gap: 20px 5px;
-        -webkit-gap: 20px;
-        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    }
-
-    #page-5 #management_container1 > div {
-        width: 100px;
-        -webkit-width: 100px;
-        height: 28px;
-        -webkit-height: 28px;
-        background-color: #cccccc70;
-    }
-
-    #page-5 #management_text {
-        position: absolute;
-        display: grid;
-        top: 4143px;
-        left: 72px;
-        gap: 20px 35px;
-        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    }
-
-    #page-5 #management_text > p {
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: -0.48px;
-    }
-    
-    #page-5 #management_container2  {
-        position: absolute;
-        display: grid;
-        top: 4305px;
-        -webkit-top: 2490px;
-        left: 70px;
-        gap: 20px 5px;
-        -webkit-gap: 20px;
-        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    }
-
-    #page-5 #management_container2 > div {
-        width: 100px;
-        -webkit-width: 100px;
-        height: 28px;
-        -webkit-height: 28px;
-        background-color: #cccccc70;
-    }
-    
-    #page-5 .management_img .jane img {
-        position: absolute;
-        top: 253em;
-        left: 70px;
-        width: 100px;
-        height: 100px;
-    }
-    
-    #page-5 .management_img .jane h1 {
-        position: absolute;
-        top: 4140px;
-        left: 72px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px;
-    }
-    
-    #page-5 .management_img .jane p {
-        position: absolute;
-        top: 4155px;
-        left: 72px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 7px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
     }
-    
-    #page-5 .management_img .cameron img {
-        position: absolute;
-        top: 253em;
-        left: 11em;
-        width: 100px;
-        height: 100px;
-    }
-    
-    #page-5 .management_img .cameron h1 {
-        position: absolute;
-        top: 4140px;
-        left: 178px;
+
+    .footer .footer_address a {
+        position: relative;
+        display: block;
+        top: 1920px;
+        left: -20px;
+        text-decoration: none;
+        width: 199px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px; 
-    }
-    
-    #page-5 .management_img .cameron p {
-        position: absolute;
-        top: 4155px;
-        left: 178px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 7px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
+        line-height: 35px;
     }
-    
-    #page-5 .management_img .brooklyn img {
-        position: absolute;
-        top: 253em;
-        left: 278px;
-        width: 100px;
-        height: 100px;
+
+    .footer .footer_address p {
+        position: relative;
+        top: 1920px;
+        left: 18px;
+        font-size: 10px;
     }
-    
-    #page-5 .management_img .brooklyn h1 {
-        position: absolute;
-        top: 4140px;
-        left: 283px;
+
+    .footer .footer_address2 a {
+        position: relative;
+        display: block;
+        top: 1665px;
+        left: 100px;
+        text-decoration: none;
+        width: 199px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px; 
-    }
-    
-    #page-5 .management_img .brooklyn p {
-        position: absolute;
-        top: 4155px;
-        left: 283px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 7px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
+        line-height: 35px;
     }
     
-    #page-5 .management_img .jacob img {
-        position: absolute;
-        top: 4207px;
-        left: 70px;
-        width: 100px;
-        height: 100px;
+    .footer .footer_address2 p {
+        position: relative;
+        top: 1663px;
+        left: 135px;
+        font-size: 10px;
     }
-    
-    #page-5 .management_img .jacob h1 {
-        position: absolute;
-        top: 4292px;
-        left: 72px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px; 
-    }
-    
-    #page-5 .management_img .jacob p {
-        position: absolute;
-        top: 4307px;
-        left: 72px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-    }
-    
-    #page-5 .management_img .jerome img {
-        position: absolute;
-        top: 4207px;
-        left: 176px;
-        width: 100px;
-        height: 100px;
-    }
-    
-    #page-5 .management_img .jerome h1 {
-        position: absolute;
-        top: 4292px;
-        left: 178px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px; 
-    }
-    
-    #page-5 .management_img .jerome p {
-        position: absolute;
-        top: 4307px;
-        left: 178px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-    }
-    
-    #page-5 .management_img .kristin img {
-        position: absolute;
-        top: 4207px;
-        left: 281px;
-        width: 100px;
-        height: 100px;
-    }
-    
-    #page-5 .management_img .kristin h1 {
-        position: absolute;
-        top: 4292px;
-        left: 283px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 9px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: -0.48px;  
-    }
-    
-    #page-5 .management_img .kristin p {
-        position: absolute;
-        top: 4307px;
-        left: 283px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 7px;
-        font-style: normal;
-        font-weight: 400;
-    }
-    
-    #page-6 h1 {
-        position: absolute;
-        top: 4357px;
-        left: 20px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        letter-spacing: -0.96px;
-    }
-    
-    #page-6 .blog_btn label {
-        position: absolute;
-        top: 4395px;
+
+    .footer .footer_address3 a {
+        position: relative;
+        display: block;
+        top: 1410px;
         left: 230px;
-        width: 110px;
-        height: 30px;
-        color: #fff;
+        text-decoration: none;
+        width: 199px;
+        color: #000;
         font-family: "SF Pro Text";
-        font-size: 13px;
+        font-size: 12px;
         font-style: normal;
-        font-weight: 600;
-        line-height:30px; /* 125% */
-        text-align: center;
-        border: 2px solid #222;
-        background-color: #000;
-        cursor: pointer;
+        font-weight: 400;
+        line-height: 35px;
     }
     
-    #page-6 .blog_btn .blog_arrow {
-        position: absolute;
-        top: 4395px;
-        left: 344px;
-        width: 30px;
-        height: 30px;
-        border: 2px solid #222;
-        cursor: pointer;
-     }
-    
-     #page-6 .blog_btn img {
-        position: absolute;
-        top: 5px;
-        left: 5px;
+    .footer .footer_address3 p {
+        position: relative;
+        top: 1405px;
+        left: 265px;
+        font-size: 10px;
+    }
+
+    .footer .footer_sns img {
+        position: relative;
+        top: 1450px;
+        left: 50px;
         width: 20px;
         height: 20px;
+        margin: 20px;
     }
-    
-    
-    #page-6 .blog_line {
+
+    .footer .footer_line2 {
         position: absolute;
-        top: 4440px;
-        left: 5px;
-        width: 380px;
+        top: 2480px;
+        left: 20px;
+        width: 350px;
         height: 1px;
         background-color: #000;
     }
-    
-    #page-6 .blog_desc1 img {
-        position: absolute;
-        top: 4480px;
-        left: 20px;
-        width: 170px;
-        height: 170px;
-    }
-    
-    #page-6 .m_blog_desc_container :first-child {
-        position: absolute;
-        top: 4634px;
-        -webkit-top: 4634px;
-        left:20px;
-        width: 170px;
-        -webkt-width: 170px;
-        height: 70px;
-        -webkt-height: 70px;
-        background-color: #cccccc70;
-        z-index: 1;
-    }
 
-    #page-6 .m_blog_desc_container :last-child {
+    .footer .copywirting p {
         position: absolute;
-        top: 4634px;
-        -webkit-top: 4634px;
-        left: 205px;
-        width: 170px;
-        -webkt-width: 170px;
-        height: 70px;
-        -webkt-height: 70px;
-        background-color: #cccccc70;
-        z-index: 1;
-    }
-    
-    #page-6 .blog_desc1 span {
-        position: absolute;
-        top: 4650px;
-        left: 22px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-    }
-    
-    #page-6 .blog_desc1 h1 {
-        position: absolute;
-        top: 4650px;
-        left: 22px;
+        top: 2500px;
+        left: 100px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 500;
-        z-index: 2;
-    }
-    
-    #page-6 .blog_desc1 h2 {
-        position: absolute;
-        top: 4678px;
-        left: 23px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 6.5px;    
-        font-weight: 400;
-        line-height: 10px;
-        z-index: 2;
-        font-style: normal;
-    }
-    
-    #page-6 .blog_desc2 img {
-        position: absolute;
-        top: 4480px;
-        left: 205px;
-        width: 170px;
-        height: 170px;
-    }
-    
-    #page-6 .blog_desc2 span {
-        position: absolute;
-        top: 4650px;
-        left: 207px;
-        color: #B2B2B2;
-        font-family: "SF Pro Text";
-        font-size: 10px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
+        line-height: 22px; 
     }
     
-    #page-6 .blog_desc2 h1 {
+    .footer .copywirting span {
         position: absolute;
-        top: 4650px;
-        left: 207px;
+        top: 2550px;
+        left: 100px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
-        font-weight: 500;
-        z-index: 2;
-    }
-    
-    #page-6 .blog_desc2 h2 {
-        position: absolute;
-        top: 4678px;
-        left: 208px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 6.5px;    
         font-weight: 400;
-        line-height: 9px;
-        z-index: 2;
-        font-style: normal;
+        line-height: 22px;
     }
-    
-.footer h1 {
-    position: absolute;
-    top: 10780px;
-    left: 120px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 72px; /* 150% */
-    letter-spacing: -0.96px;
 }
-
-.footer .footer_btn label {
-    position: absolute;
-    top: 10840px;
-    left: 1500px;
-    width: 145px;
-    height: 45px;
-    color: #fff;
-    font-family: "SF Pro Text";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height:45px; /* 125% */
-    text-align: center;
-    border: 2px solid #222;
-    background-color: #000;
-    cursor: pointer;
-}
-
-.footer .footer_btn .footer_arrow {
-    position: absolute;
-    top: 10840px;
-    left: 1649px;
-    width: 45px;
-    height: 45px;
-    border: 2px solid #222;
-    cursor: pointer;
- }
-
-.footer .footer_btn img {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 30px;
-    height: 30px;
-}
-
-
-.footer .footer_line {
-    position: absolute;
-    top: 10900px;
-    left: 10px;
-    width: 1840px;
-    height: 1px;
-    background-color: #000;
-}
-
-.footer h2 {
-    position: absolute;
-    top: 10950px;
-    left: 120px;
-    width: 376px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 48px; /* 120% */
-    letter-spacing: -0.8px;
-}
-
-.footer .footer_btn2 label {
-    position: absolute;
-    top: 11090px;
-    left: 120px;
-    width: 145px;
-    height: 45px;
-    color: #fff;
-    font-family: "SF Pro Text";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height:45px; /* 125% */
-    text-align: center;
-    border: 2px solid #222;
-    background-color: #000;
-    cursor: pointer;
-}
-
-.footer .footer_btn2 .footer_arrow2 {
-    position: absolute;
-    top: 11090px;
-    left: 269px;
-    width: 45px;
-    height: 45px;
-    border: 2px solid #222;
-    cursor: pointer;
- }
-
-.footer .footer_btn2 img {
-    position: absolute;
-    top: 7px;
-    left: 7px;
-    width: 30px;
-    height: 30px;
-}
-
-.footer .footer_menu ul li {
-    list-style: none;
-}
-
-.footer .footer_menu a {
-    position: relative;
-    top: 8750px;
-    left: 50px;
-    text-decoration: none;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 20px;
-}
-
-.footer .footer_address ul li {
-    list-style: none;
-}
-
-.footer .footer_address a {
-    position: relative;
-    display: block;
-    top: 8330px;
-    left: 700px;
-    text-decoration: none;
-    width: 199px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-
-}
-
-.footer .footer_address p {
-    position: relative;
-    top: 8380px;
-    left: 735px;
-}
-
-.footer .footer_address2 ul li {
-    list-style: none;
-}
-
-.footer .footer_address2 a {
-    position: relative;
-    display: block;
-    top: 8060px;
-    left: 1000px;
-    text-decoration: none;
-    width: 199px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-}
-
-.footer .footer_address2 p {
-    position: relative;
-    top: 8115px;
-    left: 1035px;
-}
-
-.footer .footer_address3 ul li {
-    list-style: none;
-}
-
-.footer .footer_address3 a {
-    position: relative;
-    display: block;
-    top: 7795px;
-    left: 1300px;
-    text-decoration: none;
-    width: 199px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 35px;
-}
-
-.footer .footer_address3 p {
-    position: relative;
-    top: 7850px;
-    left: 1335px;
-}
-
-.footer .footer_sns ul li {
-    list-style: none;
-}
-
-.footer .footer_sns img {
-    position: relative;
-    top: 7900px;
-    left: 1500px;
-    margin: 20px;
-}
-
-.footer .footer_line2 {
-    position: absolute;
-    top: 11500px;
-    left: 10px;
-    width: 1840px;
-    height: 1px;
-    background-color: #000;
-}
-
-.footer .copywirting p {
-    position: absolute;
-    top: 11500px;
-    left: 120px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; 
-}
-
-.footer .copywirting span {
-    position: absolute;
-    top: 11520px;
-    left: 1500px;
-    color: #000;
-    font-family: "SF Pro Text";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-}
-    
-}
-
-
-
-
