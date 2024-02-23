@@ -44,9 +44,15 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
+    height: 100vh;
     overflow-x: hidden;
-    touch-action: pan-y; /* 수직 스크롤 허용, 수평 스크롤 비허용 */
+    /* touch-action: pan-y; 수직 스크롤 허용, 수평 스크롤 비허용 */
     box-sizing: border-box;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .Header img {
@@ -1226,18 +1232,14 @@ body {
     position: absolute;
     display: grid;
     top: 8850px;
-    -webkit-top: 2490px;
     left: 500px;
     gap: 20px 51px;
-    -webkit-gap: 20px;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
 #page-5 #management_container1 > div {
     width: 327px;
-    -webkit-width: 100px;
     height: 92px;
-    -webkit-height: 28px;
     background-color: #cccccc70;
 }
 
@@ -1290,18 +1292,14 @@ body {
     position: absolute;
     display: grid;
     top: 9280px;
-    -webkit-top: 2490px;
     left: 500px;
     gap: 20px 50px;
-    -webkit-gap: 20px;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
 #page-5 #management_container2 > div {
     width: 327px;
-    -webkit-width: 100px;
     height: 92px;
-    -webkit-height: 28px;
     background-color: #cccccc70;
 }
 

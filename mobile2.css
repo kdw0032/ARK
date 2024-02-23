@@ -1,26 +1,36 @@
 /*Iphone12, Iphone12 pro 사이즈*/
-@media (max-width:730px) {
+@media screen and (min-width:375px) and (max-width:730px) {
+    body {
+        max-height: 100vh;
+        margin: 0 auto;
+    }
 
     .Header {
         position: absolute;
         top: 0;
-        max-width: 100%;
-        height: 115px;
-        overflow-x: hidden;
     }
 
     .Header img {
         position: absolute;
-        top: 0;
         left: 10px;
-
+        width: 73.244px;
+        height: 50px;
+        display: block;
+        padding: 56px 12px 16px 12px;
+        flex-direction: column;
+        justify-content:start;
+        background-color: #000;
+        width: 59.244px;
+        height: 32px;
+        color: #fff;
     }
 
-    .Header .Header_line {
+    .Header_line {
         position: absolute;
         top: 112px;
         left: 10px;
-        max-width: 95%;   
+        max-width: 95%;
+        height: 1px;   
     }
 
     .container {
@@ -29,9 +39,46 @@
         overflow-x: hidden;
     }
 
+    .hero_btn label {
+        position: absolute;
+        top: 484px;
+        left: 135px;
+        width: 95px;
+        height: 30px;
+        color: #fff;
+        font-family: "SF Pro Text";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:30px; /* 125% */
+        text-align: center;
+        border: 2px solid #222;
+        background-color: #000;
+        cursor: pointer;
+    }
+    
+    #page-1 .hero_btn .arrow {
+        position: absolute;
+        top: 484px;
+        left: 234px;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #222;
+        cursor: pointer;
+     }
+    
+    #page-1 .arrow img {
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        width: 20px;
+        height: 20px;
+    }
+
+
     #page-1 .image img {
         position: absolute;
-        top: -50px;
+        top: -30px;
         left: -320px;
         width: 350px;
         height: 250px;
@@ -68,7 +115,6 @@
         text-align: center;
         font-family: "SF Pro Text";
         font-size: 15px;
-        -webkit-font-size: 15px;
         font-style: normal;
         font-weight: 600;
         line-height: 23px; /* 133.333% */
@@ -141,7 +187,6 @@
         text-align: center;
         font-family: "SF Pro Text";
         font-size: 9px;
-        -webkit-font-size: 9px;
         font-style: normal;
         font-weight: 400;
         line-height: 15px; /* 133.333% */
@@ -302,7 +347,6 @@
         color: #000;
         font-family: "SF Pro Text";
         font-size: 10px;
-        -webkit-font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 15px; 
@@ -1112,7 +1156,6 @@
         color: #000;
         font-family: "SF Pro Text";
         font-size: 7px;
-        -webkit-font-size: 7px;
         font-style: normal;
         font-weight: 400;
         -webkit-line-height: 12px;
@@ -1342,6 +1385,10 @@
         width: 170px;
         height: 170px;
     }
+
+    #page-6 .blog_desc_container {
+        display: none;
+    }
     
     #page-6 .m_blog_desc_container :first-child {
         position: absolute;
@@ -1497,8 +1544,7 @@
         width: 20px;
         height: 20px;
     }
-
-
+    
     .footer .footer_line {
         position: absolute;
         top: 4800px;
@@ -1565,7 +1611,7 @@
 
     .footer .footer_menu a {
         position: relative;
-        top: -1200px;
+        top: -700px;
         left: 10px;
         text-decoration: none;
         color: #000;
@@ -1584,7 +1630,7 @@
     .footer .footer_address a {
         position: relative;
         display: block;
-        top: -1205px;
+        top: -700px;
         left: -20px;
         text-decoration: none;
         width: 199px;
@@ -1599,7 +1645,7 @@
 
     .footer .footer_address p {
         position: relative;
-        top: -1200px;
+        top: -710px;
         left: 15px;
         font-size: 8px;
     }
@@ -1611,7 +1657,8 @@
     .footer .footer_address2 a {
         position: relative;
         display: block;
-        top: -1400px;
+        top: -895px;
+        -webkit-top:-895px;
         left: 120px;
         text-decoration: none;
         width: 199px;
@@ -1625,7 +1672,8 @@
 
     .footer .footer_address2 p {
         position: relative;
-        top: -1395px;
+        top: -904px;
+        -webkit-top:-904px;
         left: 155px;
         font-size: 8px;
     }
@@ -1637,7 +1685,8 @@
     .footer .footer_address3 a {
         position: relative;
         display: block;
-        top: -1595px;
+        top: -1090px;
+        -webkit-top:-1090px;
         left: 255px;
         text-decoration: none;
         width: 199px;
@@ -1651,7 +1700,8 @@
 
     .footer .footer_address3 p {
         position: relative;
-        top: -1590px;
+        top: -1097px;
+        -webkit-top:-1097px;
         left: 293px;
         font-size: 8px;
     }
@@ -1662,17 +1712,18 @@
 
     .footer .footer_sns img {
         position: relative;
-        top: -1600px;
+        top: -1110px;
+        -webkit-top:-1110px;
         left: 65px;
-        width: 15px;
-        height: 15px;
+        width: 12px;
+        height: 12px;
         margin: 20px;
     }
 
     .footer .footer_line2 {
         position: absolute;
         top: 5180px;
-        left: 10px;
+        left: px;
         width: 95%;
         height: 1px;
         background-color: #000;
