@@ -120,7 +120,7 @@
         top: 542px;
         width: 100%;
         height: 500px;
-        overflow-x: hidden;
+        overflow :hidden;
     }
 
     #page-2 .first_scroll {
@@ -1103,7 +1103,7 @@
         top: 3740px;
         width: 100%;
         height: 500px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     #page-5 h1 {
@@ -1341,8 +1341,7 @@
         position: absolute;
         top: 4240px;
         width: 100%;
-        height: 380px;
-        overflow-x: hidden;
+        height: 350px;
     }
 
     #page-6 h1 {
@@ -1529,7 +1528,7 @@
         top: 4620px;
         width: 100%;
         height: 600px;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .footer h1 {
