@@ -33,10 +33,26 @@
         height: 1px;   
     }
 
-    .container {
-        width: 100%;
-        height: 5295px;
-        overflow-x: hidden;
+    #page-1 h1 {
+        position: absolute;
+        top: 120px;
+        left: 150px;
+    }
+
+    #page-1 h2 {
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    #page-1 .image img {
+        position: absolute;
+        top: -30px;
+        left: -320px;
+        width: 350px;
+        height: 250px;
     }
 
     .hero_btn label {
@@ -75,27 +91,17 @@
         height: 20px;
     }
 
-
-    #page-1 .image img {
-        position: absolute;
-        top: -30px;
-        left: -320px;
-        width: 350px;
-        height: 250px;
+    #page-1 .hero_sns ul li {
+        list-style: none;
     }
 
-    #page-1 h1 {
-        position: absolute;
-        top: 120px;
-        left: 150px;
-    }
-
-    #page-1 h2 {
-        position: absolute;
-        top: 120px;
-        left: 15px;
-        font-size: 45px;
-        line-height: 50px;
+    #page-1 .hero_sns img{
+        position: relative;
+        top: 180px;
+        left: 160px;
+        width: 15px;
+        height: 15px;
+        z-index: 2;
     }
 
     #page-1 .hero_line {
@@ -106,33 +112,33 @@
         height: 1px;
         background-color: #000;
     }
+    /*page-1 끝*/
+
+    /*page-2 시작*/
+    #page-2 {
+        position: absolute;
+        top: 542px;
+        width: 100%;
+        height: 500px;
+        overflow-x: hidden;
+    }
 
     #page-2 .first_scroll {
-        position: absolute;
-        top: 555px;
-        left: -270px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
+        position: relative;
+        top: 20px;
+        left: -260px;
+        color: #222;
         font-size: 15px;
-        font-style: normal;
         font-weight: 600;
-        line-height: 23px; /* 133.333% */
+        line-height: 23px;
         opacity: 1;
-    }
-    
+    } 
+
     #page-2 h2 {
-        position: absolute;
-        top: 625px;
-        left: -20px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
+        position: relative;
+        top: 15px;
+        left: -10px;
         font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25px; /* 133.333% */
-        letter-spacing: -0.96px;
         opacity: 1;
     }
 
@@ -140,68 +146,66 @@
         list-style: none;
     }
     
-
+    /*빌딩 이미지 뒤 컨테이너 박스*/
     #page-2 .about_container p {
         position: relative;
         display: inline-flex;
-        top: 670px;
-        left:-15px;
+        top: 70px;
+        left: -15px;
         width: 110.33334px;
         height: 130px;
         margin: 0px;
         background-color: rgba(211, 211, 211, 0.116);
     }
-    
+
+    /*1번째 빌딩*/
     #page-2 .b1 {
         position: relative;
         display: inline-block;
-        top: 450px;
-        left: 35px;
+        top: -150px;
+        left: 32px;
         width: 100px;
         height: 200px;
     }
 
+    /*2번째 빌딩*/
     #page-2 .b2 {
         position: relative;
         display: inline-block;
-        top: 245px;
-        left: 140px;
+        top: -355px;
+        left: 137px;
         width: 115px;
         height: 200px;
     }
 
+    /*3번째 빌딩*/
     #page-2 .b3 {
         position: relative;
         display: inline-block;
-        top: 40px;
+        top: -558px;
         left: 255px;
         width: 115px;
         height: 200px;
     }
 
     #page-2 .about_desc h1 {
-        position: absolute;
-        top: 950px;
+        position: relative;
+        top: -550px;
         left: -80px;
-        color: #000;
-        text-align: center;
-        font-family: "SF Pro Text";
         font-size: 9px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15px; /* 133.333% */
+        -webkit-font-size :9px;
+        line-height: 15px;
     }
-    
-    
+
     #page-2 .about_btn a {
         position: absolute;
-        top: 1086px;
+        top: 436px;
         left: 131px;
         width: 95px;
         height: 30px;
         color: #fff;
         font-family: "SF Pro Text";
-        font-size: 12px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 600;
         line-height:30px; /* 125% */
@@ -214,7 +218,7 @@
     
     #page-2 .about_btn .arrow {
         position: absolute;
-        top: 1086px;
+        top: 436px;
         left: 230px;
         width: 30px;
         height: 30px;
@@ -228,11 +232,21 @@
         width: 20px;
         height: 20px;
     }
+    /*page-2 끝*/
+
+    /*page-3 시작*/
+    #page-3 {
+        position: absolute;
+        top: 1025px;
+        width: 100%;
+        height: 1120px;
+        overflow-x: hidden;
+    }
 
     #page-3 h1 {
-        position: absolute;
-        top: 1150px;
-        left: 20px;
+        position: relative;
+        top: -10px;
+        left: -150px;
         color: #000;
         text-align: center;
         font-family: "SF Pro Text";
@@ -245,7 +259,7 @@
     
     #page-3 .service_btn label {
         position: absolute;
-        top: 1182px;
+        top: 30px;
         left: 240px;
         width: 25%;
         height: 30px;
@@ -263,7 +277,7 @@
     
     #page-3 .service_btn .arrow {
         position: absolute;
-        top: 1182px;
+        top: 30px;
         left: 340px;
         width: 8%;
         height: 30px;
@@ -278,19 +292,19 @@
         width: 20px;
         height: 20px;
     }
-    
+
     #page-3 .service_line  {
         position: absolute;
-        top: 1230px;
+        top: 80px;
         left: 10px;
         width: 95%;
         height: 1px;
         background-color: #000;
     }
-    
+
     #page-3 .service_num img {
         position: absolute;
-        top: 1260px;
+        top: 90px;
         left: 90px;
         width: 200px;
         height: 200px;
@@ -299,7 +313,7 @@
 
     #page-3 .service_num h1 {
         position: absolute;
-        top: 1410px;
+        top: 250px;
         left: -50px;
         width: 477px;
         color: #000;
@@ -320,7 +334,7 @@
     #page-3 .item_menu p {
         position: relative;
         display: inline-block;
-        top: -4420px;
+        top: 300px;
         left: -20px;
         color: #000;
         font-family: "SF Pro Text";
@@ -330,19 +344,19 @@
         margin: 5px;
         letter-spacing: -0.48px;
     }
-    
+
     #page-3 .item_menu img {
         position: absolute;
-        top: 1680px;
+        top: 480px;
         left: 45px;
         width: 300px;
         height: 450px;
         opacity: 1;
     }
-    
+
     #page-3 .item_menu h1 {
         position: absolute;
-        top: 2135px;
+        top: 950px;
         left: -82px;
         color: #000;
         font-family: "SF Pro Text";
@@ -353,26 +367,9 @@
         text-align: center;
     }
 
-    /* 사파리에서만 적용되는 스타일 */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    /* 추가하려는 스타일 */
-    #page-3 .item_menu h1 {
-        position: absolute;
-        top: 2135px;
-        left: -82px;
-        color: #000;
-        font-family: "SF Pro Text";
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15px; 
-        text-align: center;
-    }
-  }
-    
     #page-3 .item_btn label {
         position: absolute;
-        top: 2236px;
+        top: 1036px;
         left: 130px;
         width: 95px;
         height: 30px;
@@ -390,7 +387,7 @@
     
     #page-3 .item_btn .item_arrow {
         position: absolute;
-        top: 2236px;
+        top: 1036px;
         left: 229px;
         width: 30px;
         height: 30px;
@@ -405,10 +402,20 @@
         width: 20px;
         height: 20px;
     }
+    /*page-3 끝*/
+    
+    /*page-4 시작*/
+    #page-4 {
+        position: absolute;
+        top: 2140px;
+        width: 100%;
+        height: 1600px;
+        overflow-x: hidden;
+    }
 
     #page-4 h1 {
         position: absolute;
-        top: 2300px;
+        top: 0px;
         left: 10px;
         color: #000;
         text-align: center;
@@ -419,10 +426,10 @@
         line-height: 72px; /* 150% */
         letter-spacing: -0.96px;
     }
-    
+
     #page-4 .Recent_btn label {
         position: absolute;
-        top: 2332px;
+        top: 30px;
         left: 236px;
         width: 25%;
         height: 30px;
@@ -440,7 +447,7 @@
     
     #page-4 .Recent_btn .Recent_arrow {
         position: absolute;
-        top: 2332px;
+        top: 30px;
         left: 338px;
         width: 8%;
         height: 30px;
@@ -455,19 +462,19 @@
         width: 20px;
         height: 20px;
     }
-    
+
     #page-4 .Recent_line  {
         position: absolute;
-        top: 2380px;
+        top: 80px;
         left: 10px;
         width: 95%;
         height: 1px;
         background-color: #000;
     }
-    
+
     #page-4 .UVU_Classroom_Building .uvu {
         position: absolute;
-        top: 2400px;
+        top: 100px;
         left: 10px;
         width: 230px;
         height: 187px;
@@ -476,7 +483,7 @@
     
     #page-4 .UVU_Classroom_Building .logo_background {
         position: absolute;
-        top: 2390px;
+        top: 90px;
         left: 15px;
         width: 30.433px;
         height: 28px;
@@ -486,7 +493,7 @@
     
     #page-4 .UVU_Classroom_Building .logo {
         position: absolute;
-        top: 2415px;
+        top: 115px;
         left: 19px;
         width: 22px;
         height: 11px;
@@ -495,7 +502,7 @@
     
     #page-4 .UVU_Classroom_Building h1 {
         position: absolute;
-        top: 2575px;
+        top: 280px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -505,10 +512,10 @@
         line-height: 24px; /* 120% */
         letter-spacing: -0.4px;
     }
-    
+
     #page-4 .UVU_Classroom_Building h2 {
         position: absolute;
-        top: 2585px;
+        top: 290px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -518,10 +525,10 @@
         line-height: 24px; /* 120% */
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .Monson_Center .thomas {
         position: absolute;
-        top: 2397px;
+        top: 99px;
         left: 255px;
         width: 120px;
         height: 190px;
@@ -530,7 +537,7 @@
     
     #page-4 .Monson_Center .logo_background2 {
         position: absolute;
-        top: 2390px;
+        top: 90px;
         left: 260px;
         width: 20.433px;
         height: 18px;
@@ -540,7 +547,7 @@
     
     #page-4 .Monson_Center .logo2 {
         position: absolute;
-        top: 2410px;
+        top: 110px;
         left: 263px;
         width: 15px;
         height: 8px;
@@ -549,7 +556,7 @@
     
     #page-4 .Monson_Center h1 {
         position: absolute;
-        top: 2575px;
+        top: 280px;
         left: 255px;
         color: #000;
         font-family: "SF Pro Text";
@@ -560,19 +567,18 @@
     
     #page-4 .Monson_Center h2 {
         position: absolute;
-        top: 2585px;
+        top: 290px;
         left: 255px;
         color: #000;
         font-family: "SF Pro Text";
         font-size: 7px;
         font-style: normal;
         font-weight: 400;
-    
     }
-    
+
     #page-4 .USU_Swaner .usu {
         position: absolute;
-        top: 2630px;
+        top: 350px;
         left: 10px;
         width: 190px;
         height: 187px;
@@ -581,7 +587,7 @@
     
     #page-4 .USU_Swaner .logo_background3 {
         position: absolute;
-        top: 2620px;
+        top: 340px;
         left: 15px;
         width: 30.433px;
         height: 28px;
@@ -591,7 +597,7 @@
     
     #page-4 .USU_Swaner .logo3 {
         position: absolute;
-        top: 2645px;
+        top: 364px;
         left: 20px;
         width: 22px;
         height: 11px;
@@ -600,7 +606,7 @@
     
     #page-4 .USU_Swaner h1 {
         position: absolute;
-        top: 2810px;
+        top: 530px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -613,7 +619,7 @@
     
     #page-4 .USU_Swaner h2 {
         position: absolute;
-        top: 2820px;
+        top: 540px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -623,10 +629,10 @@
         line-height: 24px; /* 120% */
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .USU_Swaner .num45 {
         position: absolute;
-        top: 2650px;
+        top: 380px;
         left: 220px;
         width: 150px;
         height: 100px;
@@ -635,7 +641,7 @@
     
     #page-4 .USU_Swaner .usu_desc {
         position: absolute;
-        top: 2740px;
+        top: 470px;
         left: 20px;
         width: 557px;
         color: #000;
@@ -651,7 +657,7 @@
     
     #page-4 .UVU_Fulton .uvu2 {
         position: absolute;
-        top: 2850px;
+        top: 590px;
         left: 10px;
         width: 110px;
         height: 160px;
@@ -660,7 +666,7 @@
     
     #page-4 .UVU_Fulton .logo_background4 {
         position: absolute;
-        top: 2840px;
+        top: 580px;
         left: 15px;
         width: 20.433px;
         height: 18px;
@@ -670,7 +676,7 @@
     
     #page-4 .UVU_Fulton .logo4 {
         position: absolute;
-        top: 2861px;
+        top: 601px;
         left: 18px;
         width: 15px;
         height: 8px;
@@ -679,7 +685,7 @@
     
     #page-4 .UVU_Fulton h1 {
         position: absolute;
-        top: 3000px;
+        top: 740px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -691,7 +697,7 @@
     
     #page-4 .UVU_Fulton h2 {
         position: absolute;
-        top: 3010px;
+        top: 750px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -700,10 +706,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .USU_College .usu2 {
         position: absolute;
-        top: 2850px;
+        top: 590px;
         right: 10px;
         width: 250px;
         height: 180px;
@@ -712,8 +718,8 @@
     
     #page-4 .USU_College .logo_background5 {
         position: absolute;
-        top: 2840px;
-        right: 220px;
+        top: 580px;
+        right: 225px;
         width: 30.433px;
         height: 28px;
         background-color: #000;
@@ -722,8 +728,8 @@
     
     #page-4 .USU_College .logo5 {
         position: absolute;
-        top: 2864px;
-        right: 224px;
+        top: 605px;
+        right: 229px;
         width: 22px;
         height: 11px;
         opacity: 1;
@@ -731,7 +737,7 @@
     
     #page-4 .USU_College h1 {
         position: absolute;
-        top: 3020px;
+        top: 760px;
         left: 130px;
         color: #000;
         font-family: "SF Pro Text";
@@ -743,7 +749,7 @@
     
     #page-4 .USU_College h2 {
         position: absolute;
-        top: 3030px;
+        top: 770px;
         left: 130px;
         color: #000;
         font-family: "SF Pro Text";
@@ -752,10 +758,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .sugar_house .sugar {
         position: absolute;
-        top: 3070px;
+        top: 810px;
         left: 10px;
         width: 180px;
         height: 180px;
@@ -764,7 +770,7 @@
     
     #page-4 .sugar_house .logo_background6 {
         position: absolute;
-        top: 3060px;
+        top: 800px;
         left: 15px;
         width: 30.433px;
         height: 28px;
@@ -774,7 +780,7 @@
     
     #page-4 .sugar_house .logo6 {
         position: absolute;
-        top: 3084px;
+        top: 825px;
         left: 19px;
         width: 22px;
         height: 11px;
@@ -783,7 +789,7 @@
     
     #page-4 .sugar_house h1 {
         position: absolute;
-        top: 3240px;
+        top: 980px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -795,7 +801,7 @@
     
     #page-4 .sugar_house h2 {
         position: absolute;
-        top: 3251px;
+        top: 990px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -804,10 +810,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .trax .uta {
         position: absolute;
-        top: 3070px;
+        top: 810px;
         left: 200px;
         width: 180px;
         height: 180px;
@@ -816,8 +822,8 @@
     
     #page-4 .trax .logo_background7 {
         position: absolute;
-        top: 3060px;
-        left: 210px;
+        top: 800px;
+        left: 205px;
         width: 30.433px;
         height: 28px;
         background-color: #000;
@@ -826,8 +832,8 @@
     
     #page-4 .trax .logo7 {
         position: absolute;
-        top: 3084px;
-        left: 213px;
+        top: 824px;
+        left: 210px;
         width: 22px;
         height: 11px;
         opacity: 1;
@@ -835,7 +841,7 @@
     
     #page-4 .trax h1 {
         position: absolute;
-        top: 3240px;
+        top: 980px;
         left: 200px;
         color: #000;
         font-family: "SF Pro Text";
@@ -847,7 +853,7 @@
     
     #page-4 .trax h2 {
         position: absolute;
-        top: 3250px;
+        top: 990px;
         left: 200px;
         color: #000;
         font-family: "SF Pro Text";
@@ -856,10 +862,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .module .unified {
         position: absolute;
-        top: 3300px;
+        top: 1030px;
         left: 10px;
         width: 240px;
         height: 180px;
@@ -868,7 +874,7 @@
     
     #page-4 .module .logo_background8 {
         position: absolute;
-        top: 3290px;
+        top: 1020px;
         left: 15px;
         width: 30.433px;
         height: 28px;
@@ -878,7 +884,7 @@
     
     #page-4 .module .logo8 {
         position: absolute;
-        top: 3315px;
+        top: 1045px;
         left: 19px;
         width: 22px;
         height: 11px;
@@ -887,7 +893,7 @@
     
     #page-4 .module h1 {
         position: absolute;
-        top: 3470px;
+        top: 1200px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -899,7 +905,7 @@
     
     #page-4 .module h2 {
         position: absolute;
-        top: 3480px;
+        top: 1210px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -908,10 +914,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .Geology .sutton {
         position: absolute;
-        top: 3300px;
+        top: 1030px;
         left: 260px;
         width: 120px;
         height: 140px;
@@ -920,8 +926,8 @@
     
     #page-4 .Geology .logo_background9 {
         position: absolute;
-        top: 3290px;
-        left: 270px;
+        top: 1020px;
+        left: 265px;
         width: 20.433px;
         height: 18px;
         background-color: #000;
@@ -930,8 +936,8 @@
     
     #page-4 .Geology .logo9 {
         position: absolute;
-        top: 3311px;
-        left: 272px;
+        top: 1040px;
+        left: 267px;
         width: 15px;
         height: 8px;
         opacity: 1;
@@ -939,7 +945,7 @@
     
     #page-4 .Geology h1 {
         position: absolute;
-        top: 3435px;
+        top: 1170px;
         left: 260px;
         color: #000;
         font-family: "SF Pro Text";
@@ -953,7 +959,7 @@
     
     #page-4 .Geology h2 {
         position: absolute;
-        top: 3450px;
+        top: 1185px;
         left: 260px;
         color: #000;
         font-family: "SF Pro Text";
@@ -962,10 +968,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .s-line .k {
         position: absolute;
-        top: 3550px;
+        top: 1255px;
         left: 30px;
         width: 150px;
         height: 100px;
@@ -974,7 +980,7 @@
     
     #page-4 .s-line .line_title {
         position: absolute;
-        top: 3640px;
+        top: 1340px;
         left: -160px;
         width: 521px;
         color: #000;
@@ -990,7 +996,7 @@
     
     #page-4 .s-line .s_line {
         position: absolute;
-        top: 3530px;
+        top: 1240px;
         left: 200px;
         width: 180px;
         height: 180px;
@@ -999,7 +1005,7 @@
     
     #page-4 .s-line .logo_background10 {
         position: absolute;
-        top: 3520px;
+        top: 1230px;
         left: 205px;
         width: 30.433px;
         height: 28px;
@@ -1009,7 +1015,7 @@
     
     #page-4 .s-line .logo10 {
         position: absolute;
-        top: 3545px;
+        top: 1253px;
         left: 209px;
         width: 22px;
         height: 11px;
@@ -1018,7 +1024,7 @@
     
     #page-4 .s-line h2 {
         position: absolute;
-        top: 3700px;
+        top: 1410px;
         left: 200px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1031,7 +1037,7 @@
     
     #page-4 .s-line h3 {
         position: absolute;
-        top: 3710px;
+        top: 1420px;
         left: 200px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1040,10 +1046,10 @@
         font-weight: 400;
         letter-spacing: -0.36px;
     }
-    
+
     #page-4 .Recent_btn2 h1 {
         position: absolute;
-        top: 3740px;
+        top: 1440px;
         left: 120px;
         color: #000;
         text-align: center;
@@ -1053,10 +1059,10 @@
         font-weight: 600;
         letter-spacing: -0.96px;
     }
-    
+
     #page-4 .Recent_btn2 label {
         position: absolute;
-        top: 3820px;
+        top: 1520px;
         left: 150px;
         width: 55px;
         height: 20px;
@@ -1074,7 +1080,7 @@
     
     #page-4 .Recent_btn2 .Recent_arrow2 {
         position: absolute;
-        top: 3820px;
+        top: 1520px;
         left: 205px;
         width: 25px;
         height: 20px;
@@ -1089,10 +1095,20 @@
         width: 15px;
         height: 15px;
     }
+    /*page-4 끝*/
+
+    /*page-5 시작*/
+    #page-5 {
+        position: absolute;
+        top: 3740px;
+        width: 100%;
+        height: 500px;
+        overflow-x: hidden;
+    }
 
     #page-5 h1 {
         position: absolute;
-        top: 3880px;
+        top: 0px;
         left: 12px;
         color: #000;
         text-align: center;
@@ -1103,12 +1119,12 @@
         line-height: 72px; /* 150% */
         letter-spacing: -0.96px;
     }
-    
+
     #page-5 .Our_btn label {
         position: absolute;
-        top: 3910px;
+        top: 30px;
         left: 230px;
-        width: 110px;
+        width: 90px;
         height: 30px;
         color: #fff;
         font-family: "SF Pro Text";
@@ -1124,8 +1140,8 @@
     
     #page-5 .Our_btn .Our_arrow {
         position: absolute;
-        top: 3910px;
-        left: 344px;
+        top: 30px;
+        left: 324px;
         width: 30px;
         height: 30px;
         border: 2px solid #222;
@@ -1142,16 +1158,16 @@
     
     #page-5 .Our_line {
         position: absolute;
-        top: 3955px;
+        top: 80px;
         left: 10px;
         width: 95%;
         height: 1px;
         background-color: #000;
     }
-    
+
     #page-5 h2 {
         position: absolute;
-        top: 3965px;
+        top: 100px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1161,7 +1177,7 @@
         -webkit-line-height: 12px;
         line-height: 12px;
     }
-    
+
     #page-5 .management_title ul li {
         list-style: none;
     }
@@ -1170,8 +1186,8 @@
         position: relative;
         display: block;
         text-decoration: none;
-        top: -1310px;
-        left: -34px;
+        top: 180px;
+        left: -35px;
         color: #000;
         font-family: "SF Pro Text";
         font-size: 10px;
@@ -1184,7 +1200,7 @@
     #page-5 #management_img1 {
         position: absolute;
         display: grid;
-        top: 4050px;
+        top: 155px;
         left: 70px;
         gap: 5px;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -1194,11 +1210,11 @@
         width: 100px;
         height: 100px;
     }
- 
+
     #page-5 #management_container1  {
         position: absolute;
         display: grid;
-        top: 4150px;
+        top: 255px;
         -webkit-top: 2490px;
         left: 70px;
         gap: 5px;
@@ -1217,7 +1233,7 @@
     #page-5 #management_text {
         position: absolute;
         display: grid;
-        top: 4143px;
+        top: 250px;
         left: 72px;
         gap: 35px;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -1235,7 +1251,7 @@
     #page-5 #management_text2 {
         position: absolute;
         display: grid; 
-        top: 4157px;
+        top: 263px;
         left: 72px;
         gap: 66px;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -1249,11 +1265,11 @@
         font-weight: 400;
         letter-spacing: -0.48px;
     }
-    
+
     #page-5 #management_img2 {
         position: absolute;
         display: grid;
-        top: 4205px;
+        top: 300px;
         left: 70px;
         gap: 5px;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -1267,7 +1283,7 @@
     #page-5 #management_container2  {
         position: absolute;
         display: grid;
-        top: 4305px;
+        top: 400px;
         -webkit-top: 2490px;
         left: 70px;
         gap: 5px;
@@ -1282,11 +1298,11 @@
         -webkit-height: 28px;
         background-color: #cccccc70;
     }
-
+    
     #page-5 #management_text3 {
         position: absolute;
         display: grid;
-        top: 4298px;
+        top: 395px;
         left: 72px;
         gap: 57px;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -1304,7 +1320,7 @@
     #page-5 #management_text4 {
         position: absolute;
         display: grid; 
-        top: 4311px;
+        top: 407px;
         left: 72px;
         gap: 62px;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
@@ -1318,10 +1334,20 @@
         font-weight: 400;
         letter-spacing: -0.48px;
     }
-        
+    /*page-5 끝*/
+
+    /*page-6 시작*/
+    #page-6 {
+        position: absolute;
+        top: 4240px;
+        width: 100%;
+        height: 380px;
+        overflow-x: hidden;
+    }
+
     #page-6 h1 {
         position: absolute;
-        top: 4357px;
+        top: 0px;
         left: 20px;
         color: #000;
         text-align: center;
@@ -1331,10 +1357,10 @@
         font-weight: 600;
         letter-spacing: -0.96px;
     }
-    
+
     #page-6 .blog_btn label {
         position: absolute;
-        top: 4395px;
+        top: 30px;
         left: 230px;
         width: 110px;
         height: 30px;
@@ -1352,7 +1378,7 @@
     
     #page-6 .blog_btn .blog_arrow {
         position: absolute;
-        top: 4395px;
+        top: 30px;
         left: 344px;
         width: 30px;
         height: 30px;
@@ -1367,20 +1393,19 @@
         width: 20px;
         height: 20px;
     }
-    
-    
+
     #page-6 .blog_line {
         position: absolute;
-        top: 4440px;
+        top: 80px;
         left: 10px;
         width: 95%;
         height: 1px;
         background-color: #000;
     }
-    
+
     #page-6 .blog_desc1 img {
         position: absolute;
-        top: 4480px;
+        top: 100px;
         left: 20px;
         width: 170px;
         height: 170px;
@@ -1392,7 +1417,7 @@
     
     #page-6 .m_blog_desc_container :first-child {
         position: absolute;
-        top: 4634px;
+        top: 255px;
         -webkit-top: 4634px;
         left:20px;
         width: 170px;
@@ -1403,9 +1428,10 @@
         z-index: 1;
     }
 
+    
     #page-6 .m_blog_desc_container :last-child {
         position: absolute;
-        top: 4634px;
+        top: 255px;
         -webkit-top: 4634px;
         left: 205px;
         width: 170px;
@@ -1415,10 +1441,10 @@
         background-color: #cccccc70;
         z-index: 1;
     }
-    
+
     #page-6 .blog_desc1 span {
         position: absolute;
-        top: 4650px;
+        top: 270px;
         left: 22px;
         color: #B2B2B2;
         font-family: "SF Pro Text";
@@ -1426,10 +1452,10 @@
         font-style: normal;
         font-weight: 400;
     }
-    
+
     #page-6 .blog_desc1 h1 {
         position: absolute;
-        top: 4650px;
+        top: 270px;
         left: 22px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1441,7 +1467,7 @@
     
     #page-6 .blog_desc1 h2 {
         position: absolute;
-        top: 4678px;
+        top: 300px;
         left: 23px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1451,10 +1477,10 @@
         z-index: 2;
         font-style: normal;
     }
-    
+
     #page-6 .blog_desc2 img {
         position: absolute;
-        top: 4480px;
+        top: 100px;
         left: 205px;
         width: 170px;
         height: 170px;
@@ -1462,7 +1488,7 @@
     
     #page-6 .blog_desc2 span {
         position: absolute;
-        top: 4650px;
+        top: 270px;
         left: 207px;
         color: #B2B2B2;
         font-family: "SF Pro Text";
@@ -1473,7 +1499,7 @@
     
     #page-6 .blog_desc2 h1 {
         position: absolute;
-        top: 4650px;
+        top: 270px;
         left: 207px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1485,7 +1511,7 @@
     
     #page-6 .blog_desc2 h2 {
         position: absolute;
-        top: 4678px;
+        top: 300px;
         left: 208px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1495,10 +1521,20 @@
         z-index: 2;
         font-style: normal;
     }
-    
+    /*page-6 끝*/
+
+    /*footer 시작*/
+    .footer {
+        position: absolute;
+        top: 4620px;
+        width: 100%;
+        height: 600px;
+        overflow-x: hidden;
+    }
+
     .footer h1 {
         position: absolute;
-        top: 4720px;
+        top: 0px;
         left: 15px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1511,7 +1547,7 @@
 
     .footer .footer_btn label {
         position: absolute;
-        top: 4750px;
+        top: 30px;
         left: 230px;
         width: 110px;
         height: 30px;
@@ -1529,7 +1565,7 @@
 
     .footer .footer_btn .footer_arrow {
         position: absolute;
-        top: 4750px;
+        top: 30px;
         left: 342px;
         width: 30px;
         height: 30px;
@@ -1539,15 +1575,15 @@
 
     .footer .footer_btn img {
         position: absolute;
-        top: 7px;
-        left: 7px;
+        top: 5px;
+        left: 5px;
         width: 20px;
         height: 20px;
     }
-    
+
     .footer .footer_line {
         position: absolute;
-        top: 4800px;
+        top: 80px;
         left: 10px;
         width: 95%;
         height: 1px;
@@ -1556,7 +1592,7 @@
 
     .footer h2 {
         position: absolute;
-        top: 4810px;
+        top: 100px;
         left: 15px;
         width: 376px;
         color: #000;
@@ -1571,7 +1607,7 @@
 
     .footer .footer_btn2 label {
         position: absolute;
-        top: 4880px;
+        top: 180px;
         left: 141px;
         width: 80px;
         height: 20px;
@@ -1589,7 +1625,7 @@
 
     .footer .footer_btn2 .footer_arrow2 {
         position: absolute;
-        top: 4880px;
+        top: 180px;
         left: 225px;
         width: 20px;
         height: 20px;
@@ -1611,7 +1647,7 @@
 
     .footer .footer_menu a {
         position: relative;
-        top: -700px;
+        top: 200px;
         left: 10px;
         text-decoration: none;
         color: #000;
@@ -1630,7 +1666,7 @@
     .footer .footer_address a {
         position: relative;
         display: block;
-        top: -700px;
+        top: 200px;
         left: -20px;
         text-decoration: none;
         width: 199px;
@@ -1640,12 +1676,11 @@
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
-
     }
 
     .footer .footer_address p {
         position: relative;
-        top: -710px;
+        top: 200px;
         left: 15px;
         font-size: 8px;
     }
@@ -1657,14 +1692,15 @@
     .footer .footer_address2 a {
         position: relative;
         display: block;
-        top: -895px;
-        -webkit-top:-895px;
+        top: 5px;
+        -webkit-top:5px;
         left: 120px;
         text-decoration: none;
         width: 199px;
         color: #000;
         font-family: "SF Pro Text";
         font-size: 10px;
+        -webkit-font-size:10px;
         font-style: normal;
         font-weight: 400;
         line-height: 25px;
@@ -1672,7 +1708,7 @@
 
     .footer .footer_address2 p {
         position: relative;
-        top: -904px;
+        top: 5px;
         -webkit-top:-904px;
         left: 155px;
         font-size: 8px;
@@ -1685,7 +1721,7 @@
     .footer .footer_address3 a {
         position: relative;
         display: block;
-        top: -1090px;
+        top: -190px;
         -webkit-top:-1090px;
         left: 255px;
         text-decoration: none;
@@ -1700,7 +1736,7 @@
 
     .footer .footer_address3 p {
         position: relative;
-        top: -1097px;
+        top: -190px;
         -webkit-top:-1097px;
         left: 293px;
         font-size: 8px;
@@ -1712,7 +1748,7 @@
 
     .footer .footer_sns img {
         position: relative;
-        top: -1110px;
+        top: -150px;
         -webkit-top:-1110px;
         left: 65px;
         width: 12px;
@@ -1722,8 +1758,8 @@
 
     .footer .footer_line2 {
         position: absolute;
-        top: 5180px;
-        left: px;
+        top: 550px;
+        left: 10px;
         width: 95%;
         height: 1px;
         background-color: #000;
@@ -1731,7 +1767,7 @@
 
     .footer .copywirting p {
         position: absolute;
-        top: 5185px;
+        top: 550px;
         left: 10px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1743,7 +1779,7 @@
 
     .footer .copywirting span {
         position: absolute;
-        top: 5195px;
+        top: 560px;
         left: 290px;
         color: #000;
         font-family: "SF Pro Text";
@@ -1752,4 +1788,6 @@
         font-weight: 400;
         line-height: 22px;
     }
+
+    /*footer 끝*/
 }
