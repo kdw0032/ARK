@@ -892,8 +892,8 @@
     #page-4 .s-line .s_line {
         position: absolute;
         top: 1170px;
-        left: 200px;
-        width: 180px;
+        left: 190px;
+        width: 170px;
         height: 180px;
         opacity: 1;
     }
@@ -901,7 +901,7 @@
     #page-4 .s-line .logo_background10 {
         position: absolute;
         top: 1160px;
-        left: 205px;
+        left: 200px;
         width: 30.433px;
         height: 28px;
         background-color: #000;
@@ -911,7 +911,7 @@
     #page-4 .s-line .logo10 {
         position: absolute;
         top: 1185px;
-        left: 209px;
+        left: 205px;
         width: 22px;
         height: 11px;
         opacity: 1;
@@ -920,7 +920,7 @@
     #page-4 .s-line h2 {
         position: absolute;
         top: 1340px;
-        left: 200px;
+        left: 190px;
         color: #000;
         font-family: "SF Pro Text";
         font-size: 9px;
@@ -933,7 +933,7 @@
     #page-4 .s-line h3 {
         position: absolute;
         top: 1350px;
-        left: 200px;
+        left: 190px;
         color: #000;
         font-family: "SF Pro Text";
         font-size: 7px;
@@ -1365,7 +1365,7 @@
         left: 15px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 6.5px;    
+        font-size: 6px;    
         font-weight: 400;
         line-height: 10px;
         z-index: 2;
@@ -1409,7 +1409,7 @@
         left: 200px;
         color: #000;
         font-family: "SF Pro Text";
-        font-size: 6.5px;    
+        font-size: 6px;    
         font-weight: 400;
         line-height: 9px;
         z-index: 2;
