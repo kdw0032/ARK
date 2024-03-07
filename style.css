@@ -212,19 +212,28 @@ body {
     letter-spacing: -0.48px;
 }
 
-#page-2 .about_container ul li {
+/* #page-2 .about_container ul li {
     list-style: none;
-}
+} */
 
-#page-2 .about_container p {
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1050px 50px;
+}
+.item{
     position: relative;
-    display: inline-block;
-    top: 1300px;
-    left: 250px;
-    width: 397.33334px;
-    height: 330px;
-    margin: 10px;
-    background-color: rgba(211, 211, 211, 0.116);
+    top: 1270px;
+    justify-content: center;
+    align-items: center;;
+    min-height: 250px;
+    flex-basis: 10px;
+    flex-grow: 1;
+    background-color: blue;
 }
 
 #page-2 ul li {
@@ -251,7 +260,6 @@ body {
     font-weight: 400;
     line-height: 32px; /* 133.333% */
 }
-
 
 #page-2 .about_btn a {
     position: absolute;

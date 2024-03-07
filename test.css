@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+.item{
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    background-color: blue;
+}
