@@ -199,7 +199,7 @@ body {
 
 #page-2 h2 {
     position: absolute;
-    top: 1325px;
+    top: 1275px;
     left: 690px;
     color: #000;
     width: 441px;
@@ -242,7 +242,7 @@ body {
 
 #page-2 img {
     position: relative;
-    top: 870px;
+    top: 1200px;
     left: 355px;
     padding: 0px 95.333px 0px 0px;
 }
@@ -386,7 +386,7 @@ body {
 
 #page-3 .item_menu p {
     position: relative;
-    top: 1620px;
+    top: 1850px;
     left: 850px;
     color: #000;
     font-family: "SF Pro Text";
@@ -1211,7 +1211,7 @@ body {
     position: relative;
     display: block;
     text-decoration: none;
-    top: 7200px;
+    top: 7700px;
     left: 120px;
     color: #000;
     font-family: "SF Pro Text";
@@ -1497,7 +1497,7 @@ body {
 #page-6 .blog_desc .blog_desc_container p {
     position: relative;
     display: inline-block;
-    top: 8324px;
+    top: 8694px;
     left: 400px;
     width: 532px;
     height: 168px;
@@ -1640,7 +1640,7 @@ body {
 .footer .footer_address a {
     position: relative;
     display: block;
-    top: 8770px;
+    top: 9150px;
     left: 700px;
     text-decoration: none;
     width: 199px;
@@ -1655,7 +1655,7 @@ body {
 
 .footer .footer_address p {
     position: relative;
-    top: 8780px;
+    top: 9200px;
     left: 735px;
 }
 
@@ -1666,7 +1666,7 @@ body {
 .footer .footer_address2 a {
     position: relative;
     display: block;
-    top: 8500px;
+    top: 8875px;
     left: 1000px;
     text-decoration: none;
     width: 199px;
@@ -1680,7 +1680,7 @@ body {
 
 .footer .footer_address2 p {
     position: relative;
-    top: 8515px;
+    top: 8935px;
     left: 1035px;
 }
 
@@ -1691,7 +1691,7 @@ body {
 .footer .footer_address3 a {
     position: relative;
     display: block;
-    top: 8235px;
+    top: 8610px;
     left: 1300px;
     text-decoration: none;
     width: 199px;
@@ -1705,7 +1705,7 @@ body {
 
 .footer .footer_address3 p {
     position: relative;
-    top: 8250px;
+    top: 8670px;
     left: 1335px;
 }
 
